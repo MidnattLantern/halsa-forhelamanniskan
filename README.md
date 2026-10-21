@@ -1,9 +1,11 @@
 # Hälsa För Hela Människan
+[halsa-forhelamanniskan.se](http://halsa-forhelamanniskan.se/)
 
 ## Table of contents
 - [About](#about)
 - [Volunteers](#volunteers)
 - [Codebase](#codebase)
+- [Deployment](#deployment)
 
 ## About
 Hälsa För Hela Människan is an initiative with the mission to spread lifestyle advice that may enhance your quality of life through educational articles or external resources. Some advice are influenced by the practices of the Seventh-day Adventist Church, while most content is universally relevant regardless of religious belief or lack thereof.
@@ -23,3 +25,13 @@ All contributors are treated with equal respect, and no particular belief or rel
 
 ## Codebase
 The codebase is built with React for Vite. Most code is written in TypeScript, and styling is modular with SASS. In order to contribute, you'll need a solid understanding with TypeScript and the React framework. If you're already familiar with CSS, SASS should be easy to pick up.
+
+While the content is written in Swedish, the codebase and its documentation is written in english. ´index.html´'s lang attribute must be set to `se` (Swedish).
+
+## Deployment
+This project use the gh-pages node package, this allow manual deployment, meaning developers can push changes and wait for releases when the code is stable and ready for publicity. The package.json file contian the script "deploy" which compile the code for the branch "gh-pages". The branch "gh-pages" is automatically created when running the script for the first time.
+
+When the codebase of the main branch is ready for publicity, run the following script in terminal:
+```zsh
+npm run deploy
+```

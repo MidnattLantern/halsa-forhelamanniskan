@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/halsa-forhelamanniskan/',
+  // base: '/halsa-forhelamanniskan/', // keep disabled when using Strato's domain
   plugins: [react()],
 })
