@@ -1,8 +1,17 @@
 import react from '@vitejs/plugin-react'
+import path from 'path'
 import { defineConfig } from 'vite'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
 export default defineConfig({
   // base: '/halsa-forhelamanniskan/', // keep disabled when using Strato's domain
   plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, 'src'),
+    }
+  }
 })

@@ -2,4 +2,44 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+
+	--c-surface: #fff;
+	--c-surface-accent: #eceae3;
+	--c-cave: #255760;
+
+
+	--f-serif: "Merriweather", serif;
+	--f-sans: "Montserrat", sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background: var(--c-surface-accent);
+	width: 100vw;
+	height: 100vh;
+}
+
+main {
+	width: 100vw;
+	height: 100%;
+	background: var(--c-surface);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+// nav {
+// 	background-color: var(--c-cave);
+// }
+
+h1, h2 {
+	font-family: var(--f-serif);
+	color: var(--c-cave);
+}
+
+@media screen and (min-width: 1280px) {
+	main {
+		width: 1280px;
+	}
 }

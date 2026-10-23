@@ -1,0 +1,175 @@
+[
+    {
+        "id": "air",
+        "title": "O2 syre",
+        "photoCredit": {
+            "name": "Mauri Karlin",
+            "nameURL": "https://unsplash.com/@rovaniemi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "source": "Unsplash",
+            "sourceURL": "https://unsplash.com/photos/person-walking-on-green-grass-field-during-daytime-r4luKXaPRB8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        },
+        "paragraphs": [
+            "Öppna fönstret och släpp in den friska luften. Detta bör göras året om: Se till att ren, syrerik luft strömmar genom ditt hem, dag som natt. Ta en daglig promenad i skogen eller vid en sjöstrand. Känn gärna marken mot dina bara fötter 15-30 minuter om möjligt.",
+            "Njut av luften, fylld med negativa joner, som främjar fysisk och mental hälsa.",
+            "Gör det till en vana att andas djupt. Tänk på kroppshållningen, undvik åtsittande kläder.",
+            "Varje cell i vår kropp är beroende av det syre som finns i friska luften.",
+            "Utan det livsviktiga syret dör vi efter bara några minuter.",
+            "Kall luft innehåller mer syre än varm luft.",
+            "Tänk på att nikotin och koffeinhaltiga drycker försämrar syretillförseln."
+        ]
+    },
+    {
+        "id": "exersice",
+        "title": "Rörelse",
+        "photoCredit": {
+            "name": "Martin Dalsgaard",
+            "nameURL": "https://unsplash.com/@martin_dalsgaard?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "source": "Unsplash",
+            "sourceURL": "https://unsplash.com/photos/woman-in-black-jacket-walking-with-black-labrador-retriever-on-pathway-during-daytime-sGV1QDMM0Gg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        },
+        "paragraphs": [
+            "Stärk din kropp genom daglig motion i friska luften. De positiva effekterna är utomordentliga.",
+            "Hjärtat blir tränat.",
+            "Blodtrycket sänks",
+            "Musklerna blir stålsatta",
+            "Prestationsförmåga och uthållighet förbättras",
+            "Överflödiga kalorier förbränns",
+            "Blodsockret normaliseras",
+            "Matsmältningen stimuleras",
+            "Skelettet blir starkare",
+            "Humöret blir bättre",
+            "Minskad stress",
+            "God nattsömn",
+            "Immunförsvaret stärks, vilket i sin tur skyddar oss från infektioner och cancersjukdomar.",
+            "Intervallträning med hög intensitet HIIT, har visat sig vara den mest effektiva träningen för att öka muskelstyrka och uthållighet",
+            "30 sekunders hög intensitet, följt av 90 sekunders återhämtning, med sammanlagt 6 upprepningar - Det är det idealiska.",
+            "Ett sådant pass tar 12 minuter att genomföra.",
+            "Studsmatta stimulerar lymfsystemet och stärker varje cell i kroppen."
+        ]
+    },
+    {
+        "id": "nutrition",
+        "title": "Diet",
+        "photoCredit": {
+            "name": "Victoria Shes",
+            "nameURL": "https://unsplash.com/@victoriakosmo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "source": "Unsplash",
+            "sourceURL": "https://unsplash.com/photos/cooked-food-wSh0Exrb62g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        },
+        "paragraphs": [
+            "Varje organ i kroppen behöver sin del av näringsämnen.",
+            "Ett bra kosthåll består till större del av fullkornsprodukter, grönsaker, baljväxter, bär, frukt och nötter.",
+            "En övergång av dieten kan göras gradvis. Prova dig fram, och gör det som din kropp mår bra av.",
+            "Undvik processad mat och socker. Socker göder cancer.",
+            "Ät mer till frukost, och mindre till kvällen. Var snäll mot din mage, slopa mellanmålen. Det bör gå 5-6 timmar mellan måltiderna.",
+            "Ät långsamt, och med måtta. Sista måltiden borde intas 3-4 timmar innan sänggåendet.",
+            "Effekterna av fasta är många och genomgripande:",
+            "Periodisk fasta: 6 timmar av ätande, tex frukost kl. 7 och lunch kl 13, följt av 18 timmar fasta, repeteras dag för dag.",
+            "Terapeutisk fasta: Avstå från kaloriintag 2-3 dagar, ibland ännu längre. Under fastan dricker du vatten, örtte, rött te eller buljong.",
+            "Några effekter av fasta:",
+            "Avgiftning",
+            "Verkar helande för kroppen",
+            "Motverkar åldrande",
+            "Reparerar nervceller",
+            "Motverkar cancer",
+            "Återställer immunförsvaret"
+        ]
+    },
+    {
+        "id": "rest",
+        "title": "Återhämtning",
+        "photoCredit": {
+            "name": "Kasya Shahovskaya",
+            "nameURL": "https://unsplash.com/@kasya?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "source": "Unsplash",
+            "sourceURL": "https://unsplash.com/photos/brown-cat-sleeping-on-white-textile-d5ud04fTJCk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        },
+        "paragraphs": [
+            "Lägg dig tidigt, före kl.22 - vakna utvilad.",
+            "Unna dig 8 timmars sömn för att kroppen ska kunna reparera och bygga upp dina celler efter dagens arbete och slitage.",
+            "Hur pass väl vi presterar i våra dagliga mentala, emotionella, andliga och fysiska aktiviteter är till stor del beroende av vår nattsömn.",
+            "Mellan 21:00-02:00 , eller 22:00-03:00, är frisättningen av föryngringshormoner som mest intensiv.",
+            "Frisättningen av hormonerna förhindras av dels oro och irritation, men också av det blå ljuset från TV och dataskärmar när vi tittar på dessa under nämnda timmar.",
+            "Regelbundna vilopauser hör till livet likaväl som aktivitet.",
+            "Gud har gett oss 6 dagar att arbeta på. Den sjunde dagen har han gett oss som en regelbundet återkommande vilodag,",
+            "24 timmar, under vilka vi utan dåligt samvete kan vila från vårt arbete och vardagsbekymmer."
+        ]
+    },
+    {
+        "id": "sunshine",
+        "title": "Solsken",
+        "photoCredit": {
+            "name": "Melissa Askew",
+            "nameURL": "https://unsplash.com/@melissaaskew?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "source": "Unsplash",
+            "sourceURL": "https://unsplash.com/photos/girl-sitting-on-daisy-flowerbed-in-forest-8n00CqwnqO8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        },
+        "paragraphs": [
+            "Solen är ett av naturens mest verksamma läkemedel. Solsken påverkar vår kroppsfunktion positivt i flera avseenden.",
+            "Det höjer humöret, vilket motverkar depression.",
+            "Det påverkar melatoninproduktionen, vilket gynnar sömnen.",
+            "Solskenet sänker pulsens frekvens och reglerar blodtrycket.",
+            "Det stärker immunsystemet och skelettet.",
+            "Det motverkar förhöjda blodsockervärden.",
+            "Solens UV-strålar är bakteriedödande, så släpp in solsken i ditt hem!",
+            "D-vitamin utvecklas under huden när solens UV-strålar träffar huden, och omvandlar en form av kolesterol till D-vitamin. Varje cell i kroppen behöver D-vitamin.",
+            "Hur mycket solsken som behövs beror på hudfärg, årstid och tid på dygnet. Mörkhyade personer behöver mycket mer exponering av solljus jämfört med ljushyade."
+        ]
+    },
+    {
+        "id": "temperance",
+        "title": "Avhållsamhet",
+        "photoCredit": {
+            "name": "Karolina Kołodziejczak",
+            "nameURL": "https://unsplash.com/@rabbit_in_blue",
+            "source": "Unsplash",
+            "sourceURL": "https://unsplash.com/photos/white-ceramic-plate-on-table-YCPAqurU8dg"
+        },
+        "paragraphs": [
+            "Skydda din kropp från allt som skadar dig, och använd med måtta det som gör dig gott.",
+            "För mycket även av det goda kan bli en belastning för kroppen.",
+            "Undvik allt som är beroendeframkallande, som tex. raffinerat socker, koffein, alkohol, tobak mm.",
+            "Elektromagnetiska fält, (EMF) i överskott, kemikalier och kvicksilver är också sådant som påverkar oss negativt.",
+            "Läkemedel kan ge allvarliga biverkningar. Tänk över om och hur du kan anpassa livsstilen för att minimera behovet av läkemedel.",
+            "Rådgör med din läkare om du vill göra någon förändring som kan påverka ditt behov av medicin."
+        ]
+    },
+    {
+        "id": "trustInGod",
+        "title": "Gudsförtröstan",
+        "photoCredit": {
+            "name": "Ioana Ye",
+            "nameURL": "https://unsplash.com/@seleaphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "source": "Unsplash",
+            "sourceURL": "https://unsplash.com/photos/a-woman-sitting-in-the-grass-reading-a-book-E8kqLr9v1Yw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        },
+        "paragraphs": [
+            "Hälsa innefattar hela människan.",
+            "Det finns ett nära samband mellan fysisk, mental, social och andlig  hälsa.",
+            "Tro, hopp, kärlek och förtröstan har en hälsobringande inverkan på hela människan. Att förtrösta på Guds kraft ger sinnet vila, och förbättrar möjligheten till läkning och hälsa.",
+            "Jesus säger: Kom till mig alla ni som arbetar och bär på tunga bördor, så ska jag ge er vila. - Matteus kap.11: vers 28."
+        ]
+    },
+    {
+    "id": "water",
+    "title": "Vatten",
+    "photoCredit": {
+        "name": "Nicolas Ruiz",
+        "nameURL": "https://unsplash.com/@nicoruiz01981?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+        "source": "Unsplash",
+        "sourceURL": "https://unsplash.com/photos/clear-drinking-glass-with-water-aFbow3dw8QA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+    },
+    "paragraphs": [
+        "Börja dagen med att dricka 1-2 glas ljummet vatten.",
+        "Det hjälper alla kroppens organ att förbereda sig för dagen arbete, samt förebygger förstoppning.",
+        "Vår kropp behöver 2-3 liter vatten per dag, drick lite då och då. Ta gärna ett par korn Celtic salt, och låt smälta i munnen före varje glas vatten. Det innehåller 82 mineraler, samma mineralsammansättning som finns i våra kroppsvätskor.",
+        "Undvik att dricka i samband med mat, drick hellre 30 minuter före, eller 90 min efter måltid, så fungerar matsmältningen bättre.",
+        "Bada eller duscha varje dag.",
+        "Kontrastdusch: 3 min varmt /30 sek kallt 3 gånger.  Det stimulerar blodcirkulationen, och stärker immunförsvaret.",
+        "Upplev vattnets välgörande verkan. Genom kontrastduschar och kallbad härdas kroppen, vilket leder till att du inte fryser lika lätt.",
+        "Tänk på att endast friska personer får utsättas för intensiv härdning.",
+        "Men en lätt härdande stimulans kan även uppnås genom att djupandas vid ett öppet fönster med kall luft som strömmar in.",
+        "Vatten kan också användas som behandling i form av is, vattenånga, ångbastu, fotbad, varma och kalla omslag, samt inpackningar, med goda resultat."
+        ]
+    }
+]
