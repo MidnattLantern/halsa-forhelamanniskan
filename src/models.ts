@@ -23,11 +23,11 @@ export type IAboutUsPoint = IFlexibleContentItem
 type IContentSection = {
     heading?: string,
     bulletPoints?: boolean,
-    contentList: IFlexibleContentItem
+    contentList: IFlexibleContentItem[]
 }
 
 export type IAbusePoint = {
     title: string,
-    contentSections: IContentSection,
+    contentSections: IContentSection[],
     photoCredit: IPhotoCredit
 }
