@@ -6,6 +6,7 @@ function NavBar() {
         <nav>
             <h1><NavLink to="/">Hälsa för hela människan</NavLink></h1>
             <NavLink to="atta-halsonycklar">Åtta hälsonycklar</NavLink>
+            <NavLink to="om-oss">Om oss</NavLink>
         </nav>
     )
 }

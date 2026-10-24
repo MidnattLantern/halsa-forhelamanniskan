@@ -11,3 +11,9 @@ export type IHealthKey = {
     photoCredit: IPhotoCredit
     paragraphs: string[]
 }
+
+export type IAboutUsPoint = {
+    type: 'paragraph' | 'url',
+    content: string,
+    friendlyContent?: string
+}

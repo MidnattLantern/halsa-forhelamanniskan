@@ -1,6 +1,5 @@
 [
     {
-        "id": "air",
         "title": "O2 syre",
         "photoCredit": {
             "name": "Mauri Karlin",
@@ -19,7 +18,6 @@
         ]
     },
     {
-        "id": "exersice",
         "title": "Rörelse",
         "photoCredit": {
             "name": "Martin Dalsgaard",
@@ -48,7 +46,6 @@
         ]
     },
     {
-        "id": "nutrition",
         "title": "Diet",
         "photoCredit": {
             "name": "Victoria Shes",
@@ -76,7 +73,6 @@
         ]
     },
     {
-        "id": "rest",
         "title": "Återhämtning",
         "photoCredit": {
             "name": "Kasya Shahovskaya",
@@ -96,7 +92,6 @@
         ]
     },
     {
-        "id": "sunshine",
         "title": "Solsken",
         "photoCredit": {
             "name": "Melissa Askew",
@@ -117,7 +112,6 @@
         ]
     },
     {
-        "id": "temperance",
         "title": "Avhållsamhet",
         "photoCredit": {
             "name": "Karolina Kołodziejczak",
@@ -135,7 +129,6 @@
         ]
     },
     {
-        "id": "trustInGod",
         "title": "Gudsförtröstan",
         "photoCredit": {
             "name": "Ioana Ye",
@@ -151,7 +144,6 @@
         ]
     },
     {
-    "id": "water",
     "title": "Vatten",
     "photoCredit": {
         "name": "Nicolas Ruiz",

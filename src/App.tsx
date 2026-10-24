@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router"
 import NavBar from "./components/navBar/NavBar"
 import EightHealthKeys from "./pages/eightHealthKeys/EightHealthKeys"
+import AboutUs from "./pages/aboutUs/AboutUs"
 
 function DisplayLandingPage() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				<Routes>
 					<Route index element={<DisplayLandingPage/>}/>
 					<Route path='/atta-halsonycklar/*' element={<EightHealthKeys/>}/>
+					<Route path='/om-oss/*' element={<AboutUs/>}/>
 				</Routes>
 			</main>
 			<footer>
