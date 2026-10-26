@@ -6,7 +6,7 @@ type IPhotoCredit = {
 }
 
 type IFlexibleContentItem = {
-    type: 'paragraph' | 'url' | 'bulletHeading' | 'bulletPoint',
+    type: 'paragraph' | 'url' | 'bulletHeading' | 'bulletPoint' | 'innerHTML',
     content: string,
     friendlyContent?: string
 }

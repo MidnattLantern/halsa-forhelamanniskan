@@ -1,0 +1,495 @@
+[
+    {
+        "heading": "Hälsa för nervsystemet",
+        "contentSections": [
+            [
+                {
+                    "type": "innerHTML",
+                    "content": "<a href='#/atta-halsonycklar'>8 hälsonycklar</a> hjälper dig att frigöra kroppens läkande processer"
+                }
+            ],
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "När du tränar och är fysiskt aktiv, frisätter hjärnan bland annat"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Serotonin: ger en känsla av tillfredsställelse och lugn"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Noradrenalin: får oss att känna oss pigga"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Dopamin: ger en belöningskänsla"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Endorfiner: kan ge känslor av fysiskt välbehag som lustkänsla och lyckokänsla"
+                }
+            ],
+            [
+                {
+                    "type": "innerHTML",
+                    "content": "<strong>Vagusnerven</strong> aktiverar det parasympatiska nervsystemet, och fungerar som knappen du kan trycka på för att minska stress"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Vagusnerven förbinder vår hjärna med våra tarmar genom nacke, bröst, hjärta, lungor till våra inre organ. 90% av kommunikationen går från tarmarna till hjärnan, så vår tarmhälsa är avgörande för vårt välbefinnande"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Vagusnerven stimuleras också genom att vi sjunger, skrattar, kramas, gör HIIT (högintensiv intervallträning), en kall dusch eller en kall avtvättning av ansiktet, genom att gurgla eller massage i och bakom öronen"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "En bra hållning – korrekt andning och genom en korrekt andning får du perfekt syresättning, som är en förutsättning för god hälsa."
+                }
+            ],
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "Korrekt andning - en långsam utandning (6 sekunder)"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Är avslappnande"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ger tröst"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ger bättre självkontroll"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ger mer viljestyrka"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ger mer energi"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ger värdighet"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ger lycka"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ger glädje"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Minskar depression och ångest"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Matsmältningen fungerar bättre"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "En dålig hållning ökar depression, oro, ilska, och minskar självkänslan"
+                }
+            ],
+            [
+                {
+                    "type": "innerHTML",
+                    "content": "Genom att tugga utsöndras en hormonbudbärande molekyl <strong>opiorfin</strong> i saliven. Det är smärtstillande (starkare är morfin)"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Genom att tugga ca 40 gånger per tugga blir du dessutom gladare, får mindre ångest, mer näring, bättre matsmältning, mindre gasbildning och en varm och behaglig känsla i kroppen"
+                }
+            ]
+        ]
+    },
+    {
+        "heading": "Depression",
+        "contentSections": [
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "Orsaker"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Biologisk sårbarhet"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ärftlighet"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Stress"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Relationsförlust, eller problem i relationer"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Blivit utsatt för mobbing"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Känsla av utanförskap"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Ensamhet"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Känsla av otrygghet och meningslöshet"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Socker kan också orsaka depression"
+                }
+            ],
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "Depression kan vara ett tidigt tecken på"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Demens"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Hjärntumör"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Brist på sköldkörtelhormon, eller andra hormoner"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Anemi"
+                }
+            ],
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "Årstidsbunden depression orsakas av"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "För lite solljus"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Låg dopaminhalt"
+                }
+            ],
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "Symptom"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Oro, ångest, nedstämdhet"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Brist på glädje och intresse"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Dålig aptit eller tröstätande"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Sömnproblem"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Trötthet, brist på energi"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Känsla av att vara värdelös"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Obefogade skuldkänslor"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Koncentrationssvårigheter"
+                }
+            ],
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "Fysiska symtom"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Magbesvär"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Mycket huvudvärk"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Värk i axlar, nacke eller rygg"
+                }
+            ],
+            [
+                {
+                    "type": "innerHTML",
+                    "content": "<a href='#/atta-halsonycklar'>8 hälsonycklar</a> hjälper dig att komma ur ångest och depression"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "En viktig del av tillfrisknandet är att vilja bli frisk. 2 timmar promenad/utevistelse gör dig gott"
+                }
+            ],
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "Balansera din tarm genom"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Fasta"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Fruktdiet under några dagar"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Mer fullkorn"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Mer hela grönsaker"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "En handfull med nötter"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "B12"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Undvik starka kryddor"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Starka kryddor kan orsaka läckage i tarmen, öka ångest, depression och aggressivitet"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Stressnivåerna sänks när du läser eller lyssnar på musik"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Klassisk musik används som behandlingsmetod för depression"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Intressanta tips för föreläsningar på youtube"
+                },
+                {
+                    "type": "url",
+                    "content": "https://www.youtube.com/@Nedleyhealth",
+                    "friendlyContent": "youtube.com/@Nedleyhealth"
+                },
+                {
+                    "type": "url",
+                    "content": "https://www.youtube.com/results?search_query=Chad+and+Fadia+Kreuzer+Carolina+Conference+of+Seventh-day+Adventists",
+                    "friendlyContent": "youtube.com/results?search_query=Chad+and+Fadia"
+                }
+            ],
+            [
+                {
+                    "type": "innerHTML",
+                    "content": "<strong>Gudsförtröstan</strong> ger trygghet, hopp och mening åt livet oavsett omständigheterna"
+                }
+            ]
+        ]
+    },
+    {
+        "heading": "Sjukdomar i nervsystemet",
+        "contentSections": [
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Epilepsi, stroke, Parkinson, Alzheimer, demens, MS, ALS och migrän är bara några av 100-tals nervsjukdomar. Orsakerna är till viss del ännu okända"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Ärftlighet, livsstil, virus och infektionssjukdomar är faktorer som påverkar"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Genom vår miljö får vi i oss tungmetaller som tex kvicksilver. Kemikalier och andra gifter kan skada våra nerver tex via tvätt- och rengöringsmedel, kosmetika, hud- och hårvårdsprodukter mm"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Våra nervceller har ett skyddslager som består av 70 % fett"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Mat med höga halter av nyttigt fett skyddar nervsystemet. Hjärnan behöver omega fettsyror för att fungera optimalt. Det har visat sig att personer som begått självmord saknat Omega 3"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Omega 3 finns i valnötter, linfrön, chiafrön, avocado och alger"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Vid inköp av valnötter och linfrön, köp hela, förvara torrt och svalt"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Malda och mixade linfrön bör ätas inom 30 minuter eller frysas in"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Skalade valnötter och linfrön härsknar snabbt, och näringsinnehållet går förlorat"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Omega 6 finns i solrosolja"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Omega 9 finns i mandel och oliver"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Omega fettsyror finns enbart i växter"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Tänk på att fiskoljetillskott kan innehålla föroreningar tungmetaller som kvicksilver, PCB och dioxiner"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Fisk producerar inte Omega 3, den tar upp det från mikroalger i havet som den äter"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Omega 3 alg är ett bra alternativ till fiskolja"
+                }
+            ],
+            [
+                {
+                    "type": "innerHTML",
+                    "content": "<strong>Kokosolja</strong> är en mättad, men hälsosam olja"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "4 tsk dagligen kan göra stor skillnad för den som lider av en nervsjukdom"
+                }
+            ],
+            [
+                {
+                    "type": "innerHTML",
+                    "content": "Av örter är <strong>Johannesört</strong> den bästa för nervsystemet"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Den kan användas som kosttillskott eller olja att massera in på ryggen"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Tänk på att Johannesört inte går att kombineras med vissa läkemedel",
+                    "textFormat": "strong"
+                }
+            ],
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Rådgör med din läkare!",
+                    "textFormat": "strong"
+                }
+            ],
+            [
+                {
+                    "type": "bulletHeading",
+                    "content": "Åtta hälsonycklar kan bromsa nervsjukdomars utveckling"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Träning"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Växtbaserad kost (helst närodlad)"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Undvik skadliga animaliska oljor som margarin och fritösolja"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Uteslut de 5 allergenerna: jordnötter, vete, havre, socker och mejeriprodukter under en period av minst tre månader"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Undvik kemikalier och gifter"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Rena kroppen genom att fasta. Naturliga klorofyllbaserade renare, dvs gröna blad, tex sallad, grönkål och mangold. eliminerar gifter som lagrats i kroppen"
+                },
+                {
+                    "type": "bulletPoint",
+                    "content": "Träkol"
+                }
+            ]
+        ]
+    }
+]
