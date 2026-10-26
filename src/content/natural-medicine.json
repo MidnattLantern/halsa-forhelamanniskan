@@ -1,0 +1,313 @@
+[
+    {
+        "name": "älgörtste",
+        "effects": [
+            {
+                "type": "bulletHeading",
+                "content": "Älgört innehåller salicylsyra, som"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Är antiinflammatorisk och smärtstillande. Hjälper mot huvudvärk och ledvärk"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Är antiinflammatorisk och smärtstillande. Hjälper mot huvudvärk och ledvärk"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Är febernedsättande"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Stärker andnings och immunförsvaret"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Är svett och urindrivande"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Reglerar blodtrycket"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Hjälper mot matsmältningsproblem"
+            },
+            {
+                "type": "bulletHeading",
+                "content": "Hjälper mot halsbränna"
+            }
+        ],
+        "recipe": [
+            {
+                "item": "torkad smulad älgört",
+                "volume": "1-2 tsk"
+            },
+            {
+                "item": "vatten",
+                "volume": "1 liter"
+            }
+        ],
+        "recipeInstructions": [
+            "Plocka under säsong, och torka. Förvara i mörk, tättslutande burk",
+            "Koka upp och låt dra i 5-10 minuter",
+            "Alternativt i kallt vatten över natten",
+            "För bästa effekt drick utan uppvärmning"
+        ],
+        "treatmentInstructions": [
+            {
+                "type": "bulletHeading",
+                "content": "Iakttag försiktighet om du"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Tar blodförtunnande läkemedel"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Är allergisk mot aspirin"
+            }
+        ]
+    },
+    {
+        "name": "Influensabomben",
+        "recipe": [
+            {
+                "item": "Gurkmeja",
+                "volume": "80 g"
+            },
+            {
+                "item": "Vitlök",
+                "volume": "80 g"
+            },
+            {
+                "item": "Ingefära",
+                "volume": "80 g"
+            },
+            {
+                "item": "Pepparrot",
+                "volume": "40 g"
+            },
+            {
+                "item": "Gul lök",
+                "volume": "40 g"
+            },
+            {
+                "item": "Cayennepeppar",
+                "volume": "20 g"
+            },
+            {
+                "item": "Svartpeppar",
+                "volume": "5 g"
+            }
+        ],
+        "recipeInstructions": [
+            "Mixa ihop ingridienserna till en smet"
+        ],
+        "treatmentInstructions": [
+            {
+                "type": "paragraph",
+                "content": "Drick 3 gånger om dagen"
+            },
+            {
+                "type": "paragraph",
+                "content": "Bland en tesked med saften från en halv citron och hett vaten"
+            }
+        ]
+    },
+    {
+        "name": "Vattenterapi",
+        "treatmentInstructions": [
+            {
+                "type": "paragraph",
+                "content": "Drick rikligt med vatten, 2-3 liter på en dag. Gärna ett par korn Celtic mineralsalt före varje glas"
+            },
+            {
+                "type": "bulletHeading",
+                "content": "Kontrastdusch"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "3 minuter varmt"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "30 sekunder kallt"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "upprepa 3 gånger per dag"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Om hög feber kan du sänka temperaturen genom ett svalt bad/dusch"
+            },
+            {
+                "type": "paragraph",
+                "content": "Kallt omslag runt halsen"
+            },
+            {
+                "type": "bulletHeading",
+                "content": "Inandning av vattenånga"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "3 minuter"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "badda med kallt vatten i 30 sekunder"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "upprepa tre gånger"
+            },
+            {
+                "type": "bulletPoint",
+                "content": "Effektivt mot nästäppa och bihåleinflammation. Du kan använda någon droppe av eterisk olja, tex eucalyptus, timjan eller rosmarin i vattenångan"
+            },
+            {
+                "type": "paragraph",
+                "content": "Gurgla med saltlösning eller starkt salviate"
+            },
+            {
+                "type": "paragraph",
+                "content": "Varmt fotbad"
+            }
+        ]
+    },
+    {
+        "name": "Cayennepeppar",
+        "effects": [
+            {
+                "type": "paragraph",
+                "content": "Effektivt mot halsont"
+            }
+        ],
+        "treatmentInstructions": [
+            {
+                "type": "paragraph",
+                "content": "Ej het och kryddig. Sniffa lite i vardera näsborre mot nästäppa och bihåleinflammation. ¼ tesked sväljs med vatten"
+            }
+        ]
+    },
+    {
+        "name": "Hostmedicin",
+        "recipe": [
+            {
+                "item": "Gullök",
+                "volume": "..."
+            },
+            {
+                "item": "Honung",
+                "volume": "..."
+            }   
+        ],
+        "recipeInstructions": [
+            "Varva lökringar och honung i en burk",
+            "låt stå i rumstemperatur 24 timmar",
+            "sila bort lökringarna",
+            "Förvaras i kylskåp 1 månad"
+        ],
+        "treatmentInstructions": [
+            {
+                "type": "paragraph",
+                "content": "Skivad gullök bredvid sängen under natten"
+            },
+            {
+                "type": "paragraph",
+                "content": "Skivad gullök under fötterna i plastpåse eller strumpa"
+            },
+            {
+                "type": "paragraph",
+                "content": "Spädbarn: Skivad vitlök istället för gullök, men ej direkt på huden - Linda in i en kompress eller bomullstyg (Alt. En droppe eucalyptusolja på fontanellen)"
+            },
+            {
+                "type": "paragraph",
+                "content": "Varmt fotbad med lök 20-30 minuter"
+            },
+            {
+                "type": "paragraph",
+                "content": "Om du har neuropati, diabetes eller sår: max 37,8 grader i vattnet",
+                "textFormat": "strong"
+            }
+        ]
+    },
+    {
+        "name": "Öroninflammation",
+        "recipe": [
+            {
+                "item": "Gullök",
+                "volume": "En hel"
+            }
+        ],
+        "recipeInstructions": [
+            "Koka gullöken, dela sedan på mitten",
+            "Krama ur lite av löksaften"
+        ],
+        "treatmentInstructions": [
+            {
+                "type": "paragraph",
+                "content": "Behandlas efter att det svalnat något"
+            },
+            {
+                "type": "paragraph",
+                "content": "Häll lite löksaft i örat"
+            },
+            {
+                "type": "paragraph",
+                "content": "Linda in en av lökhalvorna i bomullstyg, eller en strumpa, och lägg på örat"
+            },
+            {
+                "type": "paragraph",
+                "content": "Upprepa behandlingen vid behov"
+            }
+        ]
+    },
+    {
+        "name": "Halsont",
+        "treatmentInstructions": [
+            {
+                "type": "paragraph",
+                "content": "Applicera lökomslag kring halsen, eller på bröstet, om besvären sitter längre ner"
+            },
+            {
+                "type": "paragraph",
+                "content": "Använd kallt omslag kring halsen"
+            },
+            {
+                "type": "paragraph",
+                "content": "Applicera eucalyptusolja kring halsen"
+            }
+        ]
+    },
+    {
+        "name": "Ingefära Shot",
+        "recipe": [
+            {
+                "item": "Ingefära",
+                "volume": "80 g"
+            },
+            {
+                "item": "Honung",
+                "volume": "0,5 dl"
+            },
+            {
+                "item": "Utklämd saft",
+                "volume": "3 citroner"
+            },
+            {
+                "item": "Vatten",
+                "volume": "1,4 dl"
+            }
+        ],
+        "recipeInstructions": [
+            "Ingefäran hackas grovt, utan att skalas",
+            "Blanda alla ingredienser, utom citron, och kör i blender",
+            "Sila innehållet i ett grovt tyg, så stora bitar inte kommer med",
+            "Blanda i citronsaft efter önskad smak",
+            "Lägg till extra honung vid behov"
+        ]
+    }
+]
