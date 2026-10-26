@@ -7,7 +7,7 @@ function DisplayPage() {
 
     return (
         <>
-            <h2>8 Hälsonycklar</h2>
+            <h2>Åtta Hälsonycklar</h2>
             <ul>
                 {healthKeyData.map((healthKey, index) => (
                     <li key={index}>{healthKey.title}</li>

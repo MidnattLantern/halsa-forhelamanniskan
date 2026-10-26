@@ -6,7 +6,7 @@ type IPhotoCredit = {
 }
 
 type IFlexibleContentItem = {
-    type: 'paragraph' | 'url',
+    type: 'paragraph' | 'url' | 'bulletHeading' | 'bulletPoint',
     content: string,
     friendlyContent?: string
 }
@@ -30,4 +30,17 @@ export type IAbusePoint = {
     title: string,
     contentSections: IContentSection[],
     photoCredit: IPhotoCredit
+}
+
+type INaturalMedicineRecipe = {
+    item: string,
+    volume: string
+}
+
+export type INaturalMedicine = {
+    name: string,
+    effects?: IFlexibleContentItem[],
+    recipe?: INaturalMedicineRecipe[],
+    recipeInstructions?: string[],
+    treatmentInstructions?: IFlexibleContentItem[]
 }
