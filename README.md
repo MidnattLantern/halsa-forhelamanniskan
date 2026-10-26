@@ -19,6 +19,9 @@ All contributors are treated with equal respect, and no particular belief or rel
 ### Web developer(s) & Designer(s)
 - Alma Isaksson
 
+### Logo design
+- Robert
+
 ### Content writer(s)
 - Ellen Ljungberg
 - Gabriel Stefan Kémenes
