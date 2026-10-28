@@ -4,6 +4,7 @@ import EightHealthKeys from "./pages/eightHealthKeys/EightHealthKeys"
 import AboutUs from "./pages/aboutUs/AboutUs"
 import Abuse from "./pages/abuse/Abuse"
 import NaturalMedicine from "./pages/naturalMedicine/NaturalMedicine"
+import NervousSystem from "./pages/nervousSystem/NervousSystem"
 
 function DisplayLandingPage() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 					<Route path='/om-oss/*' element={<AboutUs/>}/>
 					<Route path='/naturlig-behandling/*' element={<NaturalMedicine/>}/>
 					<Route path='/missbruk/*' element={<Abuse/>}/>
+					<Route path='/halsa-for-nervsystemet/*' element={<NervousSystem/>}/>
 				</Routes>
 			</main>
 			<footer>

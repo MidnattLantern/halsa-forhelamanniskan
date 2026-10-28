@@ -44,3 +44,8 @@ export type INaturalMedicine = {
     recipeInstructions?: string[],
     treatmentInstructions?: IFlexibleContentItem[]
 }
+
+export type INervousSystem = {
+    heading: string,
+    contentSections: IFlexibleContentItem[][]
+}
