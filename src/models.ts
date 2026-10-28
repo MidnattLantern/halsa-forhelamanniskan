@@ -5,7 +5,7 @@ type IPhotoCredit = {
     sourceURL: string
 }
 
-type IFlexibleContentItem = {
+export type IFlexibleContentItem = {
     type: 'paragraph' | 'url' | 'bulletHeading' | 'bulletPoint' | 'innerHTML',
     content: string,
     friendlyContent?: string
@@ -48,6 +48,12 @@ export type INaturalMedicine = {
 export type INervousSystem = {
     heading: string,
     contentSections: IFlexibleContentItem[][]
+}
+
+export type IHerbRecipe = {
+    title: string,
+    ingredients: string[],
+    instructions: string[]
 }
 
 export type IHerbsFlora = {

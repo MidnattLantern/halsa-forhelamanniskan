@@ -1,6 +1,6 @@
 [
     {
-        "title": "Hud",
+        "heading": "Hud",
         "contents": [
             "aloe vera",
             "gullris",
@@ -43,7 +43,7 @@
         ]
     },
     {
-        "title": "Skelettsystem",
+        "heading": "Skelettsystem",
         "contents": [
             "gullris",
             "blåbär",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "title": "Prostata",
+        "heading": "Prostata",
         "contents": [
             "nicktistel",
             "vitplister",
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "title": "Matsmältningssystem",
+        "heading": "Matsmältningssystem",
         "contents": [
             "aloe vera",
             "kvanne",
@@ -142,7 +142,7 @@
         ]
     },
     {
-        "title": "Nervsystem",
+        "heading": "Nervsystem",
         "contents": [
             "citronmeliss",
             "gråbo",
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "title": "Muskelsystem",
+        "heading": "Muskelsystem",
         "contents": [
             "slåttergubbe",
             "stor kardborre",
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "title": "Utsöndringssystem",
+        "heading": "Utsöndringssystem",
         "contents": [
             "gullris",
             "stor kardborre",
@@ -215,7 +215,7 @@
         ]
     },
     {
-        "title": "Syn",
+        "heading": "Syn",
         "contents": [
             "blåbär",
             "blåklint",
@@ -228,7 +228,7 @@
         ]
     },
     {
-        "title": "Andningssystem",
+        "heading": "Andningssystem",
         "contents": [
             "aloe vera",
             "kvanne",
@@ -271,7 +271,7 @@
         ]
     },
     {
-        "title": "Kvinnligt reproduktionsorgan",
+        "heading": "Kvinnligt reproduktionsorgan",
         "contents": [
             "gullris",
             "munkpeppar",
@@ -294,7 +294,7 @@
         ]
     },
     {
-        "title": "Kardiovaskulärt system",
+        "heading": "Kardiovaskulärt system",
         "contents": [
             "gullris",
             "blåbär",
@@ -329,7 +329,7 @@
         ]
     },
     {
-        "title": "Cancer",
+        "heading": "Cancer",
         "contents": [
             "gullris",
             "blåbär",
