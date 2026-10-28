@@ -49,3 +49,8 @@ export type INervousSystem = {
     heading: string,
     contentSections: IFlexibleContentItem[][]
 }
+
+export type IHerbsFlora = {
+    heading: string,
+    contents: string[]
+}
