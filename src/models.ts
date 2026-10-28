@@ -60,3 +60,8 @@ export type IHerbsFlora = {
     heading: string,
     contents: string[]
 }
+
+export type IFirstAidKit = {
+    bulletHeading: string,
+    content: string[]
+}

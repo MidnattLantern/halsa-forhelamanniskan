@@ -6,6 +6,7 @@ import Abuse from "./pages/abuse/Abuse"
 import NaturalMedicine from "./pages/naturalMedicine/NaturalMedicine"
 import NervousSystem from "./pages/nervousSystem/NervousSystem"
 import HerbsForService from "./pages/herbsForService/HerbsForService"
+import FirstAidKit from "./pages/firstAidKit/FirstAidKit"
 
 function DisplayLandingPage() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 					<Route path='/missbruk/*' element={<Abuse/>}/>
 					<Route path='/halsa-for-nervsystemet/*' element={<NervousSystem/>}/>
 					<Route path='/orter-till-manniskans-tjänst/*' element={<HerbsForService/>}/>
+					<Route path='/forsta-hjalpen-kit/*' element={<FirstAidKit/>}/>
 				</Routes>
 			</main>
 			<footer>

@@ -11,6 +11,7 @@ function NavBar() {
             <NavLink to="missbruk">Missbruk</NavLink>
             <NavLink to="halsa-for-nervsystemet">Hälsa för nervsystemet</NavLink>
             <NavLink to="orter-till-manniskans-tjänst">Örter till människans tjänst</NavLink>
+            <NavLink to="forsta-hjalpen-kit">Första hjälpen kit</NavLink>
         </nav>
     )
 }
