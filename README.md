@@ -26,6 +26,9 @@ All contributors are treated with equal respect, and no particular belief or rel
 - Ellen Ljungberg
 - Gabriel Stefan Kémenes
 
+### Source code ownership
+This project is currently under Alma Isaksson's Github account. If you're a web-developer interested to carry the ownership, communicate with the development team and inform [info@halsa-forhelamanniskan.se](info@halsa-forhelamanniskan.se).
+
 ## Codebase
 The codebase is built with React for Vite. Most code is written in TypeScript, and styling is modular with SASS. In order to contribute, you'll need a solid understanding with TypeScript and the React framework. If you're already familiar with CSS, SASS should be easy to pick up.
 
