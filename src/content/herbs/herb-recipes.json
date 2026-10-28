@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Ogräspesto",
+        "ingredients": [
+            "1 dl solroskärnor",
+            "3 dl hackad späd kirskål",
+            "1 dl hackad späd brännässla",
+            "Näringsjäst",
+            "Himalajasalt",
+            "Olivolja"
+        ],
+        "instructions": [
+            "Mixa solroskärnor och ogräs, var för sig",
+            "Rör i näringsjäst och olivolja till en bra konsistens",
+            "Smaka av med himalajasalt"
+        ]
+    },
+    {
+        "title": "Stekta maskrosknoppar",
+        "ingredients": [
+            "Späda maskrosknoppar",
+            "Vitlök",
+            "Himalajasalt",
+            "Näringsjäst",
+            "Kokosolja — neutral smak"
+        ],
+        "instructions": [
+            "Ta bort stjälken från maskrosknoppen — för att slippa besk smak",
+            "Stek maskrosknopparna med pressad vitlök i kokosolja",
+            "Krydda med salt"
+        ]
+    }
+]
