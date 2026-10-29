@@ -1,0 +1,18 @@
+.heading {
+    margin-bottom: 2rem;
+}
+
+.articlesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article {
+    padding: 5px;
+    border: 1px solid var(--c-cave);
+
+    img {
+        width: 100%;
+    }
+}

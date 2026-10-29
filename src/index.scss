@@ -24,6 +24,7 @@ body {
 main {
 	width: 100vw;
 	height: 100%;
+	padding: 5px;
 	background: var(--c-surface);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -33,9 +34,18 @@ main {
 // 	background-color: var(--c-cave);
 // }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: var(--f-serif);
 	color: var(--c-cave);
+	text-transform: uppercase;
+}
+
+span, p, a, li {
+	font-family: var(--f-sans);
+}
+
+ul {
+	list-style-type: none;
 }
 
 @media screen and (min-width: 1280px) {

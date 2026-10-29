@@ -12,8 +12,8 @@ export type IFlexibleContentItem = {
 }
 
 export type IHealthKey = {
-    id: string,
     title: string,
+    photoURL: string,
     photoCredit: IPhotoCredit
     paragraphs: string[]
 }

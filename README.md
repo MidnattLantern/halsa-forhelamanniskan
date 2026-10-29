@@ -71,3 +71,7 @@ When the codebase of the main branch is ready for publicity, run the following s
 ```zsh
 npm run deploy
 ```
+
+## Acknowledgements
+- Google Fonts
+- Unsplash
