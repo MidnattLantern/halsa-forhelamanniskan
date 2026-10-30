@@ -32,17 +32,22 @@ export type IAbusePoint = {
     photoCredit: IPhotoCredit
 }
 
-type INaturalMedicineRecipe = {
+export type INaturalMedicineRecipe = {
     item: string,
     volume: string
 }
 
+export type INaturalMedicineEffects = {
+    heading: string,
+    effects: string[]
+}
+
 export type INaturalMedicine = {
     name: string,
-    effects?: IFlexibleContentItem[],
-    recipe?: INaturalMedicineRecipe[],
-    recipeInstructions?: string[],
-    treatmentInstructions?: IFlexibleContentItem[]
+    effectsSection?: INaturalMedicineEffects,
+    recipeSection?: INaturalMedicineRecipe[],
+    recipeInstructionsSection?: string[],
+    treatmentInstructionsSection?: IFlexibleContentItem[]
 }
 
 export type INervousSystem = {

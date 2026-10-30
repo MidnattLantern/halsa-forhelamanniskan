@@ -1,45 +1,19 @@
 [
     {
         "name": "älgörtste",
-        "effects": [
-            {
-                "type": "bulletHeading",
-                "content": "Älgört innehåller salicylsyra, som"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Är antiinflammatorisk och smärtstillande. Hjälper mot huvudvärk och ledvärk"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Är antiinflammatorisk och smärtstillande. Hjälper mot huvudvärk och ledvärk"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Är febernedsättande"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Stärker andnings och immunförsvaret"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Är svett och urindrivande"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Reglerar blodtrycket"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Hjälper mot matsmältningsproblem"
-            },
-            {
-                "type": "bulletHeading",
-                "content": "Hjälper mot halsbränna"
-            }
-        ],
-        "recipe": [
+        "effectsSection": {
+            "heading": "Älgört innehåller salicylsyra, som",
+            "effects": [
+                "Är antiinflammatorisk och smärtstillande. Hjälper mot huvudvärk och ledvärk",
+                "Är febernedsättande",
+                "Stärker andnings och immunförsvaret",
+                "Är svett och urindrivande",
+                "Reglerar blodtrycket",
+                "Hjälper mot matsmältningsproblem",
+                "Hjälper mot halsbränna"
+            ]
+        },
+        "recipeSection": [
             {
                 "item": "torkad smulad älgört",
                 "volume": "1-2 tsk"
@@ -49,13 +23,13 @@
                 "volume": "1 liter"
             }
         ],
-        "recipeInstructions": [
+        "recipeInstructionsSection": [
             "Plocka under säsong, och torka. Förvara i mörk, tättslutande burk",
             "Koka upp och låt dra i 5-10 minuter",
             "Alternativt i kallt vatten över natten",
             "För bästa effekt drick utan uppvärmning"
         ],
-        "treatmentInstructions": [
+        "treatmentInstructionsSection": [
             {
                 "type": "bulletHeading",
                 "content": "Iakttag försiktighet om du"
@@ -72,7 +46,7 @@
     },
     {
         "name": "Influensabomben",
-        "recipe": [
+        "recipeSection": [
             {
                 "item": "Gurkmeja",
                 "volume": "80 g"
@@ -102,10 +76,10 @@
                 "volume": "5 g"
             }
         ],
-        "recipeInstructions": [
+        "recipeInstructionsSection": [
             "Mixa ihop ingridienserna till en smet"
         ],
-        "treatmentInstructions": [
+        "treatmentInstructionsSection": [
             {
                 "type": "paragraph",
                 "content": "Drick 3 gånger om dagen"
@@ -118,7 +92,7 @@
     },
     {
         "name": "Vattenterapi",
-        "treatmentInstructions": [
+        "treatmentInstructionsSection": [
             {
                 "type": "paragraph",
                 "content": "Drick rikligt med vatten, 2-3 liter på en dag. Gärna ett par korn Celtic mineralsalt före varje glas"
@@ -179,13 +153,13 @@
     },
     {
         "name": "Cayennepeppar",
-        "effects": [
-            {
-                "type": "paragraph",
-                "content": "Effektivt mot halsont"
-            }
-        ],
-        "treatmentInstructions": [
+        "effectsSection": {
+            "heading": "Effektik mot",
+            "effects": [
+                "Halsont"
+            ]
+        },
+        "treatmentInstructionsSection": [
             {
                 "type": "paragraph",
                 "content": "Ej het och kryddig. Sniffa lite i vardera näsborre mot nästäppa och bihåleinflammation. ¼ tesked sväljs med vatten"
@@ -194,7 +168,7 @@
     },
     {
         "name": "Hostmedicin",
-        "recipe": [
+        "recipeSection": [
             {
                 "item": "Gullök",
                 "volume": "…"
@@ -204,13 +178,13 @@
                 "volume": "…"
             }   
         ],
-        "recipeInstructions": [
+        "recipeInstructionsSection": [
             "Varva lökringar och honung i en burk",
             "låt stå i rumstemperatur 24 timmar",
             "sila bort lökringarna",
             "Förvaras i kylskåp 1 månad"
         ],
-        "treatmentInstructions": [
+        "treatmentInstructionsSection": [
             {
                 "type": "paragraph",
                 "content": "Skivad gullök bredvid sängen under natten"
@@ -236,17 +210,17 @@
     },
     {
         "name": "Öroninflammation",
-        "recipe": [
+        "recipeSection": [
             {
                 "item": "Gullök",
                 "volume": "En hel"
             }
         ],
-        "recipeInstructions": [
+        "recipeInstructionsSection": [
             "Koka gullöken, dela sedan på mitten",
             "Krama ur lite av löksaften"
         ],
-        "treatmentInstructions": [
+        "treatmentInstructionsSection": [
             {
                 "type": "paragraph",
                 "content": "Behandlas efter att det svalnat något"
@@ -267,7 +241,7 @@
     },
     {
         "name": "Halsont",
-        "treatmentInstructions": [
+        "treatmentInstructionsSection": [
             {
                 "type": "paragraph",
                 "content": "Applicera lökomslag kring halsen, eller på bröstet, om besvären sitter längre ner"
@@ -284,7 +258,7 @@
     },
     {
         "name": "Ingefära Shot",
-        "recipe": [
+        "recipeSection": [
             {
                 "item": "Ingefära",
                 "volume": "80 g"
@@ -302,7 +276,7 @@
                 "volume": "1,4 dl"
             }
         ],
-        "recipeInstructions": [
+        "recipeInstructionsSection": [
             "Ingefäran hackas grovt, utan att skalas",
             "Blanda alla ingredienser, utom citron, och kör i blender",
             "Sila innehållet i ett grovt tyg, så stora bitar inte kommer med",
