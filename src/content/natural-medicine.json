@@ -31,16 +31,12 @@
         ],
         "treatmentInstructionsSection": [
             {
-                "type": "bulletHeading",
-                "content": "Iakttag försiktighet om du"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Tar blodförtunnande läkemedel"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Är allergisk mot aspirin"
+                "type": "uList",
+                "uListHeading": "Iakttag försiktighet om du",
+                "uListContent": [
+                    "Tar blodförtunnande läkemedel",
+                    "Är allergisk mot aspirin"
+                ]
             }
         ]
     },
@@ -80,74 +76,31 @@
             "Mixa ihop ingridienserna till en smet"
         ],
         "treatmentInstructionsSection": [
-            {
-                "type": "paragraph",
-                "content": "Drick 3 gånger om dagen"
-            },
-            {
-                "type": "paragraph",
-                "content": "Bland en tesked med saften från en halv citron och hett vaten"
-            }
+            "Drick 3 gånger om dagen",
+            "Bland en tesked med saften från en halv citron och hett vaten"
         ]
     },
     {
         "name": "Vattenterapi",
         "treatmentInstructionsSection": [
+            "Drick rikligt med vatten, 2-3 liter på en dag. Gärna ett par korn Celtic mineralsalt före varje glas",
             {
-                "type": "paragraph",
-                "content": "Drick rikligt med vatten, 2-3 liter på en dag. Gärna ett par korn Celtic mineralsalt före varje glas"
-            },
-            {
-                "type": "bulletHeading",
-                "content": "Kontrastdusch"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "3 minuter varmt"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "30 sekunder kallt"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "upprepa 3 gånger per dag"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Om hög feber kan du sänka temperaturen genom ett svalt bad/dusch"
-            },
-            {
-                "type": "paragraph",
-                "content": "Kallt omslag runt halsen"
-            },
-            {
-                "type": "bulletHeading",
-                "content": "Inandning av vattenånga"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "3 minuter"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "badda med kallt vatten i 30 sekunder"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "upprepa tre gånger"
-            },
-            {
-                "type": "bulletPoint",
-                "content": "Effektivt mot nästäppa och bihåleinflammation. Du kan använda någon droppe av eterisk olja, tex eucalyptus, timjan eller rosmarin i vattenångan"
-            },
-            {
-                "type": "paragraph",
-                "content": "Gurgla med saltlösning eller starkt salviate"
-            },
-            {
-                "type": "paragraph",
-                "content": "Varmt fotbad"
+                "type": "uList",
+                "uListHeading": "Kontrastdusch",
+                "uListContent": [
+                    "3 minuter varmt",
+                    "30 sekunder kallt",
+                    "upprepa 3 gånger per dag",
+                    "Om hög feber kan du sänka temperaturen genom ett svalt bad/dusch",
+                    "Kallt omslag runt halsen",
+                    "Inandning av vattenånga",
+                    "3 minuter",
+                    "badda med kallt vatten i 30 sekunder",
+                    "upprepa tre gånger",
+                    "Effektivt mot nästäppa och bihåleinflammation. Du kan använda någon droppe av eterisk olja, tex eucalyptus, timjan eller rosmarin i vattenångan",
+                    "Gurgla med saltlösning eller starkt salviate",
+                    "Varmt fotbad"
+                ]
             }
         ]
     },
@@ -160,10 +113,7 @@
             ]
         },
         "treatmentInstructionsSection": [
-            {
-                "type": "paragraph",
-                "content": "Ej het och kryddig. Sniffa lite i vardera näsborre mot nästäppa och bihåleinflammation. ¼ tesked sväljs med vatten"
-            }
+            "Ej het och kryddig. Sniffa lite i vardera näsborre mot nästäppa och bihåleinflammation. ¼ tesked sväljs med vatten"
         ]
     },
     {
@@ -185,24 +135,12 @@
             "Förvaras i kylskåp 1 månad"
         ],
         "treatmentInstructionsSection": [
+            "Skivad gullök bredvid sängen under natten",
+            "Skivad gullök under fötterna i plastpåse eller strumpa",
+            "Spädbarn: Skivad vitlök istället för gullök, men ej direkt på huden - Linda in i en kompress eller bomullstyg (Alt. En droppe eucalyptusolja på fontanellen)",
+            "Varmt fotbad med lök 20-30 minuter",
             {
-                "type": "paragraph",
-                "content": "Skivad gullök bredvid sängen under natten"
-            },
-            {
-                "type": "paragraph",
-                "content": "Skivad gullök under fötterna i plastpåse eller strumpa"
-            },
-            {
-                "type": "paragraph",
-                "content": "Spädbarn: Skivad vitlök istället för gullök, men ej direkt på huden - Linda in i en kompress eller bomullstyg (Alt. En droppe eucalyptusolja på fontanellen)"
-            },
-            {
-                "type": "paragraph",
-                "content": "Varmt fotbad med lök 20-30 minuter"
-            },
-            {
-                "type": "paragraph",
+                "type": "formattedParagraph",
                 "content": "Om du har neuropati, diabetes eller sår: max 37,8 grader i vattnet",
                 "textFormat": "strong"
             }
@@ -221,39 +159,18 @@
             "Krama ur lite av löksaften"
         ],
         "treatmentInstructionsSection": [
-            {
-                "type": "paragraph",
-                "content": "Behandlas efter att det svalnat något"
-            },
-            {
-                "type": "paragraph",
-                "content": "Häll lite löksaft i örat"
-            },
-            {
-                "type": "paragraph",
-                "content": "Linda in en av lökhalvorna i bomullstyg, eller en strumpa, och lägg på örat"
-            },
-            {
-                "type": "paragraph",
-                "content": "Upprepa behandlingen vid behov"
-            }
+            "Behandlas efter att det svalnat något",
+            "Häll lite löksaft i örat",
+            "Linda in en av lökhalvorna i bomullstyg, eller en strumpa, och lägg på örat",
+            "Upprepa behandlingen vid behov"
         ]
     },
     {
         "name": "Halsont",
         "treatmentInstructionsSection": [
-            {
-                "type": "paragraph",
-                "content": "Applicera lökomslag kring halsen, eller på bröstet, om besvären sitter längre ner"
-            },
-            {
-                "type": "paragraph",
-                "content": "Använd kallt omslag kring halsen"
-            },
-            {
-                "type": "paragraph",
-                "content": "Applicera eucalyptusolja kring halsen"
-            }
+            "Applicera lökomslag kring halsen, eller på bröstet, om besvären sitter längre ner",
+            "Använd kallt omslag kring halsen",
+            "Applicera eucalyptusolja kring halsen"
         ]
     },
     {
