@@ -1,28 +1,34 @@
 import { Route, Routes } from "react-router"
 import addictiveSubstancesDataRaw from "@/content/abuse/addictive-substances.json"
-import type { IAbusePoint } from "@/models"
+import type { IAddictiveSubstance } from "@/models/abuse"
 
 function DisplayPage() {
-    const addictiveSubstancesData = addictiveSubstancesDataRaw as IAbusePoint[]
+    const addictiveSubstancesData = addictiveSubstancesDataRaw as IAddictiveSubstance[]
 
     return (
         <>
             <h2>Missbruk</h2>
-            <ul>
-                {addictiveSubstancesData.map((abusePoint, index) => (
-                    <li key={index}>
-                        <h3>{abusePoint.title}</h3>
-                        {abusePoint.contentSections.map((contentSection, index) => (
-                            <div key={index}>
-                                {contentSection.heading ? <h3>{contentSection.heading}</h3> : undefined}
-                                {contentSection.contentList.map((content, index ) => (
-                                    <p key={index}>{content.content}</p>
-                                ))}
-                            </div>
+            <div>
+                {addictiveSubstancesData.map((substance, index) => (
+                    <section key={index}>
+                        <h3>{substance.title}</h3>
+                        <figure>
+                            <img src={substance.photoURL} alt={`Representativ bild för ${substance.title}`} width={300}/>
+                            <figcaption>
+                                <span>Foto av <a href={substance.photoCredit.nameURL} target="_blank">{substance.photoCredit.name}</a></span>
+                                <br/>
+                                <span>Från <a href={substance.photoCredit.sourceURL}>{substance.photoCredit.source}</a></span>
+                            </figcaption>
+                        </figure>
+                        {substance.paragraphs.map((paragraph, index) => (
+                            <>
+                                {typeof paragraph === 'string' && <p key={index}>{paragraph}</p>}
+                                {typeof paragraph === 'object' && <p key={index}>{`(Object)`}</p>}
+                            </>
                         ))}
-                    </li>
+                    </section>
                 ))}
-            </ul>
+            </div>
         </>
     )
 }

@@ -1,3 +1,5 @@
+// DEPRICATED FILE, This will be deleted and replaced with the models directory and its models files
+
 type IPhotoCredit = {
     name: string,
     nameURL: string,
