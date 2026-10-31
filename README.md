@@ -64,6 +64,24 @@ export default MyPage
 ### Storing content
 Any content written by the content writers live as json data inside the content directory. Depending on the subject, the overall structure of a json file may vary across the subject. Because each json data doesn't follow a shared convention, the overall structure may vary. The structure of a json is revealed inside the models.ts file.
 
+### Content JSON format
+A common format of storing text content is as an array for a "paragraph" object. The array may contain a mix of a text string or an object specifying the format. This makes the content a plain paragraph by default, and anything else, such as external link or uList specified.
+```json
+"paragraphs": [
+    "text 1",
+    "text 2",
+    {
+        "type": "uList",
+        "uListContent": [
+            "subtext 1",
+            "subtext 2",
+            "subtext 3",
+        ]
+    },
+    "text 3"
+]
+```
+
 ## Deployment
 This project use the gh-pages node package, this allow manual deployment, meaning developers can push changes and wait for releases when the code is stable and ready for publicity. The package.json file contian the script "deploy" which compile the code for the branch "gh-pages". The branch "gh-pages" is automatically created when running the script for the first time.
 
