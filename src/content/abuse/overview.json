@@ -1,0 +1,44 @@
+[
+    [
+        "Dopamin - en av de viktigaste signalsubstanserna i det centrala nerv- systemet - är kopplat till hjärnans belöningssystem. ",
+        {
+            "type": "uList",
+            "uListContent": [
+                "Det ger eufori och lustkänsla",
+                "Det är också lugnande och smärtstillande, det stimulerar motoriken, höjer koncentrationen och effektiviserar inlärning",
+                "Öka dopaminnivån naturligt genom 8 hälsonycklar, tex. genom träning och vistelse i naturen",
+                "En vördnadsbjudande naturupplevelse höjer dopaminnivån, och effekten varar i 1 vecka"
+            ]
+        }
+    ],
+    [
+        {
+            "type": "uList",
+            "uListHeading": "Sympton vid dopaminbrist",
+            "uListContent": [
+                "Kramp i muskler, spasmer eller darrningar",
+                "Låg energinivå",
+                "Trötthet",
+                "Smärta och värk i kroppen",
+                "Rubbad matspjälkning",
+                "Problem med svalg och med att äta",
+                "Problem med balansen",
+                "Hallucinoid",
+                "Pratar långsammare än vanligt",
+                "Pendlar mycket i vikt",
+                "Dålig sömn, svårt att somna, störningar i sömnen",
+                "Svårigheter att fokusera",
+                "Saknar motivation",
+                "Saknar självinsikt och självdistans"
+            ]
+        }
+    ],
+    [
+        "Alkohol, socker, nikotin, mobiltelefon triggar belöningssystem, till exempel dopamin",
+        {
+            "type": "url",
+            "content": "https://axelsons.se/dopamin/",
+            "friendlyContent": "axelsons.se/dopamin"
+        }
+    ]
+]

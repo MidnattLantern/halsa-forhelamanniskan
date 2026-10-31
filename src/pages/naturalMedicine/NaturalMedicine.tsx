@@ -89,7 +89,6 @@ function DisplayPage() {
                         return <i>{instruction.content}</i>
                 }
             }
-
         }
 
         return (

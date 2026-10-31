@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Kokoskakor",
+        "recipeSection": [
+            {
+                "item": "smält kokosolja",
+                "volume": "½ tsk"
+            },
+            {
+                "item": "mandelmjöl",
+                "volume": "120 g"
+            },
+            {
+                "item": "kokosflingor",
+                "volume": "30 g"
+            },
+            {
+                "item": "kokosolja",
+                "volume": "60 g"
+            },
+            {
+                "item": "stort ägg",
+                "volume": "1 st"
+            },
+            {
+                "item": "vaniljpulver",
+                "volume": "1 tsk"
+            },
+            {
+                "item": "mjuka urkärnade finhackade dadlar",
+                "volume": "40 g"
+            },
+            {
+                "item": "salt",
+                "volume": "1 nypa"
+            }
+        ],
+        "recipeInstructionsSection": [
+            "Smaksätt med Carob, torkad frukt (finhackad) för extra tuggmotstånd.",
+            "180 grader, 160 varmluft. Smörj plåten med kokosolja.",
+            "Mixa alla ingredienser med stavmixer, tillsätt lite vatten om degen är för smulig.",
+            "Forma degen till 20 små bollar och lägg på plåten.",
+            "Platta till ca 1 cm tjocklek.",
+            "Grädda 15 minuter",
+            "Låt svalna en stund på plåten, lägg sedan på galler.",
+            "Förvara i lufttät burk i frysen."
+        ]
+    },
+    {
+        "name": "Dadelbollar",
+        "recipeSection": [
+            {
+                "item": "urkärnade dadlar eller dadelmassa",
+                "volume": "2 1/2 dl"
+            },
+            {
+                "item": "kokosmjölk",
+                "volume": "1 1/2 dl"
+            },
+            {
+                "item": "salt",
+                "volume": "1 nypa"
+            },
+            {
+                "item": "vaniljpulver",
+                "volume": "…"
+            },
+            {
+                "item": "mandlar – eventuellt svagt rostade",
+                "volume": "1 1/2 dl"
+            },
+            {
+                "item": "Saltå dinkelflingor eller fiberhavregryn",
+                "volume": "3 dl"
+            },
+            {
+                "item": "Kokosmjölk",
+                "volume": "1/2-1 1/2 dl"
+            },
+            {
+                "item": "kokosflingor",
+                "volume": "…"
+            }
+        ],
+        "recipeInstructionsSection": [
+            "Koka dadlarna några minuter i 1 1/2 dl kokosmjölk tills det blir mjuka",
+            "Rör ev ner salt och vaniljpulver och mosa väl eller mixa med mixerstav",
+            "Blanda i dinkelflingor eller havregryn och tillsätt mer kokosmjölk till en jämn smet",
+            "Forma till små bollar och rulla dom i kokosflingor",
+            "Förvara i kylskåp"
+        ]
+    }
+]

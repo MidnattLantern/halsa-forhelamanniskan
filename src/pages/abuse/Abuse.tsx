@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router"
-import abuseDataRaw from "@/content/abuse-data.json"
+import addictiveSubstancesDataRaw from "@/content/abuse/addictive-substances.json"
 import type { IAbusePoint } from "@/models"
 
 function DisplayPage() {
-    const abuseData = abuseDataRaw as IAbusePoint[]
+    const addictiveSubstancesData = addictiveSubstancesDataRaw as IAbusePoint[]
 
     return (
         <>
             <h2>Missbruk</h2>
             <ul>
-                {abuseData.map((abusePoint, index) => (
+                {addictiveSubstancesData.map((abusePoint, index) => (
                     <li key={index}>
                         <h3>{abusePoint.title}</h3>
                         {abusePoint.contentSections.map((contentSection, index) => (
