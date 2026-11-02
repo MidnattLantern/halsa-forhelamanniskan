@@ -111,13 +111,13 @@ function DisplayPage() {
             <section>
                 <h2>Förkylning & Naturlig behandling</h2>
                 {naturalMedicineData.map((NaturalMedicine, index) => (
-                    <>
-                        <h3 key={index}>{NaturalMedicine.name}</h3>
+                    <section key={index}>
+                        <h3>{NaturalMedicine.name}</h3>
                         {NaturalMedicine.effectsSection && <EffectsSection section={NaturalMedicine.effectsSection}/>}
                         {NaturalMedicine.recipeSection && <RecipeSection section={NaturalMedicine.recipeSection}/>}
                         {NaturalMedicine.recipeInstructionsSection && <RecipeInstructionsSection instructions={NaturalMedicine.recipeInstructionsSection}/>}
                         {NaturalMedicine.treatmentInstructionsSection && <TreatmentInstructionsSection section={NaturalMedicine.treatmentInstructionsSection}/>}
-                    </>
+                    </section>
                 ))}
             </section>
         </>

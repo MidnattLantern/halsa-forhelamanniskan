@@ -1,13 +1,74 @@
 import { Route, Routes } from "react-router"
+import overviewDataRaw from "@/content/abuse/overview.json"
 import addictiveSubstancesDataRaw from "@/content/abuse/addictive-substances.json"
-import type { IAddictiveSubstance } from "@/models/abuse"
+import type { IAddictiveSubstance, IOverview, IOverviewObject, ISubstanceParagraph } from "@/models/abuse"
 
 function DisplayPage() {
+    const overviewData = overviewDataRaw as IOverview[]
     const addictiveSubstancesData = addictiveSubstancesDataRaw as IAddictiveSubstance[]
+
+    // ======
+    // common
+    // ======
+    function CommonParagraph({paragraph}: {paragraph: string}) {
+        return <p>{paragraph}</p>
+    }
+    // ======
+
+
+    // ========
+    // overview
+    // ========
+    function ObjectContentOverview({overview} : {overview: IOverviewObject}) {
+        if (overview.type === 'uList') return (
+            <>
+                {overview.uListHeading && <h4>{overview.uListHeading}</h4>}
+                <ul>
+                    {overview.uListContent && overview.uListContent.map((content, index) => (
+                        <li key={index}>{content}</li>
+                    ))}
+                </ul>
+            </>
+        )
+    }
+    // ========
+
+    // ==========
+    // Substances
+    // ==========
+    function ObjectContentSubstances({paragraph}: {paragraph: ISubstanceParagraph}) {
+        if (paragraph.type === 'uList') return (
+            <>
+                {paragraph.uListHeading && <h4>{paragraph.uListHeading}</h4>}
+                <ul>
+                    {paragraph.uListContent && paragraph.uListContent.map((content, index) => (
+                        <li key={index}>{content}</li>
+                    ))}
+                </ul>
+            </>
+        )
+        if (paragraph.type === 'url') return (
+            <a href={paragraph.content} target="_blank">{paragraph.friendlyContent}</a>
+        )
+    }
+    // ==========
+
 
     return (
         <>
             <h2>Missbruk</h2>
+            <div>
+                {overviewData.map((overviewsection, index) => (
+                    <div key={index}>
+                        {overviewsection.map((subOverview, index) => (
+                            <div key={index}>
+                                {typeof subOverview === 'string' && <CommonParagraph paragraph={subOverview}/>}
+                                {typeof subOverview === 'object' && <ObjectContentOverview overview={subOverview}/>}
+                            </div>
+                        ))}
+                    </div>
+                ))}
+            </div>
             <div>
                 {addictiveSubstancesData.map((substance, index) => (
                     <section key={index}>
@@ -21,10 +82,10 @@ function DisplayPage() {
                             </figcaption>
                         </figure>
                         {substance.paragraphs.map((paragraph, index) => (
-                            <>
-                                {typeof paragraph === 'string' && <p key={index}>{paragraph}</p>}
-                                {typeof paragraph === 'object' && <p key={index}>{`(Object)`}</p>}
-                            </>
+                            <div key={index}>
+                                {typeof paragraph === 'string' && <CommonParagraph paragraph={paragraph}/>}
+                                {typeof paragraph === 'object' && <ObjectContentSubstances paragraph={paragraph}/>}
+                            </div>
                         ))}
                     </section>
                 ))}
