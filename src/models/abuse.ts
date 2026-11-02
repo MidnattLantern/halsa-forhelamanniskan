@@ -33,3 +33,10 @@ export type IAddictiveSubstance = {
     photoCredit: IPhotoCredit,
     paragraphs: string[] | IUList[] | IUrl[]
 }
+
+export type IReplacementEffects = IUrl
+
+export type IReplacement = {
+    name: string,
+    effects: IReplacementEffects[]
+}

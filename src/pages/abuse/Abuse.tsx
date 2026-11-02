@@ -1,11 +1,13 @@
 import { Route, Routes } from "react-router"
 import overviewDataRaw from "@/content/abuse/overview.json"
 import addictiveSubstancesDataRaw from "@/content/abuse/addictive-substances.json"
-import type { IAddictiveSubstance, IOverview, IOverviewObject, ISubstanceParagraph } from "@/models/abuse"
+import replacementsDataRaw from "@/content/abuse/replacements.json"
+import type { IAddictiveSubstance, IOverview, IOverviewObject, IReplacement, IReplacementEffects, ISubstanceParagraph } from "@/models/abuse"
 
 function DisplayPage() {
     const overviewData = overviewDataRaw as IOverview[]
     const addictiveSubstancesData = addictiveSubstancesDataRaw as IAddictiveSubstance[]
+    const replacementsData = replacementsDataRaw as IReplacement[]
 
     // ======
     // common
@@ -53,6 +55,15 @@ function DisplayPage() {
     }
     // ==========
 
+    // ============
+    // Replacements
+    // ============
+    function ObjectContentReplacements({effect}: {effect: IReplacementEffects}) {
+        if (effect.type === 'url') return (
+            <a href={effect.content} target="_blank">{effect.friendlyContent}</a>
+        )
+    }
+    // ============
 
     return (
         <>
@@ -88,6 +99,19 @@ function DisplayPage() {
                             </div>
                         ))}
                     </section>
+                ))}
+            </div>
+            <div>
+                {replacementsData.map((replacement, index) => (
+                    <div key={index}>
+                        <h3>{replacement.name}</h3>
+                        {replacement.effects.map((effect, index) => (
+                            <div key={index}>
+                                {typeof effect === 'string' && <CommonParagraph paragraph={effect}/>}
+                                {typeof effect === 'object' && <ObjectContentReplacements effect={effect}/>}
+                            </div>
+                        ))}
+                    </div>
                 ))}
             </div>
         </>
