@@ -4,12 +4,6 @@
         "contentSections": [
             [
                 {
-                    "type": "innerHTML",
-                    "content": "<a href='#/atta-halsonycklar'>8 hälsonycklar</a> hjälper dig att frigöra kroppens läkande processer"
-                }
-            ],
-            [
-                {
                     "type": "uList",
                     "uListHeading": "När du tränar och är fysiskt aktiv, frisätter hjärnan bland annat",
                     "uListContent": [
@@ -22,8 +16,9 @@
             ],
             [
                 {
-                    "type": "innerHTML",
-                    "content": "<strong>Vagusnerven</strong> aktiverar det parasympatiska nervsystemet, och fungerar som knappen du kan trycka på för att minska stress"
+                    "type": "formattedParagraph",
+                    "content": "Vagusnerven aktiverar det parasympatiska nervsystemet, och fungerar som knappen du kan trycka på för att minska stress",
+                    "textFormat": "strong"
                 },
                 "Vagusnerven förbinder vår hjärna med våra tarmar genom nacke, bröst, hjärta, lungor till våra inre organ. 90% av kommunikationen går från tarmarna till hjärnan, så vår tarmhälsa är avgörande för vårt välbefinnande",
                 "Vagusnerven stimuleras också genom att vi sjunger, skrattar, kramas, gör HIIT (högintensiv intervallträning), en kall dusch eller en kall avtvättning av ansiktet, genom att gurgla eller massage i och bakom öronen",
@@ -51,10 +46,7 @@
                 "En dålig hållning ökar depression, oro, ilska, och minskar självkänslan"
             ],
             [
-                {
-                    "type": "innerHTML",
-                    "content": "Genom att tugga utsöndras en hormonbudbärande molekyl <strong>opiorfin</strong> i saliven. Det är smärtstillande (starkare är morfin)"
-                }
+                "Genom att tugga utsöndras en hormonbudbärande molekyl opiorfin i saliven. Det är smärtstillande (starkare är morfin)"
             ],
             [
                 "Genom att tugga ca 40 gånger per tugga blir du dessutom gladare, får mindre ångest, mer näring, bättre matsmältning, mindre gasbildning och en varm och behaglig känsla i kroppen"
@@ -132,8 +124,9 @@
             ],
             [
                 {
-                    "type": "innerHTML",
-                    "content": "<a href='#/atta-halsonycklar'>8 hälsonycklar</a> hjälper dig att komma ur ångest och depression"
+                    "type": "internalUrl",
+                    "content": "atta-halsonycklar",
+                    "friendlyContent": "Åtta hälsonycklar hjälper dig att frigöra kroppens läkande processer"
                 }
             ],
             [
@@ -177,10 +170,7 @@
                 }
             ],
             [
-                {
-                    "type": "innerHTML",
-                    "content": "<strong>Gudsförtröstan</strong> ger trygghet, hopp och mening åt livet oavsett omständigheterna"
-                }
+                "Gudsförtröstan ger trygghet, hopp och mening åt livet oavsett omständigheterna"
             ]
         ]
     },
@@ -226,15 +216,17 @@
             ],
             [
                 {
-                    "type": "innerHTML",
-                    "content": "<strong>Kokosolja</strong> är en mättad, men hälsosam olja"
+                    "type": "formattedParagraph",
+                    "content": "Kokosolja är en mättad, men hälsosam olja",
+                    "textFormat": "strong"
                 },
                 "4 tsk dagligen kan göra stor skillnad för den som lider av en nervsjukdom"
             ],
             [
                 {
-                    "type": "innerHTML",
-                    "content": "Av örter är <strong>Johannesört</strong> den bästa för nervsystemet"
+                    "type": "formattedParagraph",
+                    "content": "Av örter är Johannesört den bästa för nervsystemet",
+                    "textFormat": "strong"
                 },
                 "Den kan användas som kosttillskott eller olja att massera in på ryggen",
                 {

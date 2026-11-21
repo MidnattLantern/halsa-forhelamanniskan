@@ -10,21 +10,21 @@ function DisplayPage() {
     }
 
     function ObjectContent({contents}: {contents: IContentSectionObject}) {
-        if (contents.type === 'innerHTML') return (
-            <p>{contents.content}</p>
-        )
         if (contents.type === 'uList') return (
             <>
                 {contents.uListHeading && <h4>{contents.uListHeading}</h4>}
                 <ul>
                     {contents.uListContent.map((content, index) => (
-                    <li key={index}>{content}</li>
+                        <li key={index}>{content}</li>
                     ))}
                 </ul>
             </>
         )
         if (contents.type === 'url') return (
             <a href={contents.content} target="_blank">{contents.friendlyContent}</a>
+        )
+        if (contents.type === 'internalUrl') return (
+            <a href={contents.content}>{contents.friendlyContent}</a>
         )
         if (contents.type === 'formattedParagraph') switch(contents.textFormat) {
             case 'strong':
