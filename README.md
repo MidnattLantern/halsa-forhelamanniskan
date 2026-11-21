@@ -6,6 +6,7 @@
 - [Volunteers](#volunteers)
 - [Codebase](#codebase)
 - [Deployment](#deployment)
+- [Acknowledgements](#acknowledgements)
 
 ## About
 Hälsa För Hela Människan is an initiative with the mission to spread lifestyle advice that may enhance your quality of life through educational articles or external resources. Some advice are influenced by the practices of the Seventh-day Adventist Church, while most content is universally relevant regardless of religious belief or lack thereof.
@@ -93,3 +94,4 @@ npm run deploy
 ## Acknowledgements
 - Google Fonts
 - Unsplash
+- Landing page image: https://unsplash.com/photos/red-and-white-flower-field-under-white-clouds-and-blue-sky-during-daytime-GDtK_T_lrEI

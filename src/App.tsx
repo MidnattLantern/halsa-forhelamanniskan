@@ -12,6 +12,7 @@ function DisplayLandingPage() {
 	return (
 		<>
 			<h2>Välkommen</h2>
+			<img src="https://images.unsplash.com/photo-1598902720236-d0587fa7bad1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Äng med blandning av långa strån; blåa, via och röda blommor; en rad av träd som skiljer ängen från en molnig blå himmel." width={300}/>
 		</>
 	)
 }
