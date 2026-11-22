@@ -6,7 +6,7 @@ type IUrl = {
 
 type IUListFormat = {
     type: "uList",
-    uListHeading: string,
+    uListHeading?: string,
     uListContent: string[]
 }
 

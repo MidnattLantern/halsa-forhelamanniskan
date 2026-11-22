@@ -1,7 +1,8 @@
 [
     {
-        "heading": "Hud",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Hud",
+        "uListContent": [
             "aloe vera",
             "gullris",
             "slåttergubbe",
@@ -43,8 +44,9 @@
         ]
     },
     {
-        "heading": "Skelettsystem",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Skelettsystem",
+        "uListContent": [
             "gullris",
             "blåbär",
             "slåttergubbe",
@@ -67,8 +69,9 @@
         ]
     },
     {
-        "heading": "Prostata",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Prostata",
+        "uListContent": [
             "nicktistel",
             "vitplister",
             "luddunört",
@@ -78,8 +81,9 @@
         ]
     },
     {
-        "heading": "Matsmältningssystem",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Matsmältningssystem",
+        "uListContent": [
             "aloe vera",
             "kvanne",
             "gullris",
@@ -142,8 +146,9 @@
         ]
     },
     {
-        "heading": "Nervsystem",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Nervsystem",
+        "uListContent": [
             "citronmeliss",
             "gråbo",
             "hagtorn",
@@ -167,8 +172,9 @@
         ]
     },
     {
-        "heading": "Muskelsystem",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Muskelsystem",
+        "uListContent": [
             "slåttergubbe",
             "stor kardborre",
             "vallört",
@@ -180,8 +186,9 @@
         ]
     },
     {
-        "heading": "Utsöndringssystem",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Utsöndringssystem",
+        "uListContent": [
             "gullris",
             "stor kardborre",
             "nicktistel",
@@ -215,8 +222,9 @@
         ]
     },
     {
-        "heading": "Syn",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Syn",
+        "uListContent": [
             "blåbär",
             "blåklint",
             "tiggarnöt",
@@ -228,8 +236,9 @@
         ]
     },
     {
-        "heading": "Andningssystem",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Andningssystem",
+        "uListContent": [
             "aloe vera",
             "kvanne",
             "gullris",
@@ -271,8 +280,9 @@
         ]
     },
     {
-        "heading": "Kvinnligt reproduktionsorgan",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Kvinnligt reproduktionsorgan",
+        "uListContent": [
             "gullris",
             "munkpeppar",
             "en",
@@ -294,8 +304,9 @@
         ]
     },
     {
-        "heading": "Kardiovaskulärt system",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Kardiovaskulärt system",
+        "uListContent": [
             "gullris",
             "blåbär",
             "slåttergubbe",
@@ -329,8 +340,9 @@
         ]
     },
     {
-        "heading": "Cancer",
-        "contents": [
+        "type": "uList",
+        "uListHeading": "Cancer",
+        "uListContent": [
             "gullris",
             "blåbär",
             "gråbo",

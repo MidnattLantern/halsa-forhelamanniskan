@@ -1,25 +1,21 @@
-type IUList = {
+type IUrl = {
+    type: "url",
+    urlString: string,
+    friendlyUrlString: string
+}
+
+type IUListFormat = {
     type: "uList",
-    uListHeading: string,
+    uListHeading?: string,
     uListContent: string[]
 }
 
-export type IObjectContent = IUList
-
-export type IOverview = string[] | IUList[]
-
-export type IClassification = {
-    heading: string,
-    contents: string[]
-}
+export type IOverview = string | IUListFormat | IUrl
+export type IClassification = string | IUListFormat | IUrl
+export type IFlora = string | IUListFormat | IUrl
 
 export type IRecipe = {
     title: string,
     ingredients: string[],
     instructions: string[]
-}
-
-export type IFlora = {
-    heading: string,
-    contents: string[]
 }
