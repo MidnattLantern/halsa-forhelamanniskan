@@ -1,7 +1,8 @@
 [
     {
-        "name": "Cikoriarot",
-        "effects": [
+        "type": "uList",
+        "uListHeading": "Cikoriarot",
+        "uListContent": [
             "En god och nyttig kaffeersättning",
             "Rik på vitaminer, mineraler, fibrer och antioxidanter",
             "Minskar risken för hjärt-kärlsjukdomar, har en blodtryckssänkande effekt",
@@ -15,8 +16,9 @@
         ]
     },
     {
-        "name": "Chaga sprängticka",
-        "effects": [
+        "type": "uList",
+        "uListHeading": "Chaga sprängticka",
+        "uListContent": [
             "Koka och drick som te, kaffe eller använd som bas i en smoothie",
             "Är en av de mest värdefulla råvarorna i naturen",
             "Innehåller många vitaminer och mineraler, betagluken, steroler och fytonäringsämnen",
@@ -28,17 +30,18 @@
             "Balanserar blodtrycket",
             "Sänker blodsockernivån",
             "Förbättrar kvaliteten på hår och hud",
-            "Lindrar matsmältningsproblem",
-            {
-                "type": "url",
-                "content": "https://axelsons.se/chaga-halsa-som-vaxer-pa-trad/",
-                "friendlyContent": "axelsons.se/chaga-halsa-som-vaxer-pa-trad"
-            }
+            "Lindrar matsmältningsproblem"
         ]
     },
     {
-        "name": "Carob",
-        "effects": [
+        "type": "url",
+        "urlString": "https://axelsons.se/chaga-halsa-som-vaxer-pa-trad/",
+        "friendlyUrlString": "axelsons.se/chaga-halsa-som-vaxer-pa-trad"
+    },
+    {
+        "type": "uList",
+        "namuListHeading": "Carob",
+        "uListContent": [
             "Kakaoersättning, fritt från koffein",
             "Bra källa till vitaminer och mineraler",
             "Minskar risken för hjärt- och kärlsjukdomar",

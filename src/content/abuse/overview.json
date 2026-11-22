@@ -3,6 +3,7 @@
         "Dopamin - en av de viktigaste signalsubstanserna i det centrala nerv- systemet - är kopplat till hjärnans belöningssystem. ",
         {
             "type": "uList",
+            "uListHeading": "Dopamin",
             "uListContent": [
                 "Det ger eufori och lustkänsla",
                 "Det är också lugnande och smärtstillande, det stimulerar motoriken, höjer koncentrationen och effektiviserar inlärning",
@@ -37,8 +38,8 @@
         "Alkohol, socker, nikotin, mobiltelefon triggar belöningssystem, till exempel dopamin",
         {
             "type": "url",
-            "content": "https://axelsons.se/dopamin/",
-            "friendlyContent": "axelsons.se/dopamin"
+            "urlString": "https://axelsons.se/dopamin/",
+            "friendlyUrlString": "axelsons.se/dopamin"
         }
     ]
 ]

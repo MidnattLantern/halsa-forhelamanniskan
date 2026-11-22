@@ -1,10 +1,15 @@
-export type IOverviewObject = {
-    type: 'uList' | 'url',
-    uListHeading?: string,
-    uListContent?: [string]
+
+type IUrl = {
+    type: "url",
+    urlString: string,
+    friendlyUrlString: string
 }
 
-export type IOverview = string[] | IOverviewObject[]
+type IUListFormat = {
+    type: "uList",
+    uListHeading: string,
+    uListContent: string[]
+}
 
 type IPhotoCredit = {
     name: string,
@@ -13,31 +18,13 @@ type IPhotoCredit = {
     sourceURL: string
 }
 
-type IUList = {
-    type: 'uList',
-    uListHeading?: string,
-    uListContent: string[]
-}
-
-type IUrl = {
-    type: 'url',
-    content: string,
-    friendlyContent: string
-}
-
-export type ISubstanceParagraph = IUList | IUrl
+export type IOverview = string | IUListFormat | IUrl
 
 export type IAddictiveSubstance = {
     title: string,
     photoURL: string,
     photoCredit: IPhotoCredit,
-    paragraphs: string[] | IUList[] | IUrl[]
+    paragraphs: string[] | IUListFormat[] | IUrl[]
 }
 
-export type IReplacementEffects = IUrl | IUList
-
-export type IReplacement = {
-    name: string,
-    effects: IReplacementEffects[]
-}
-
+export type IReplacement = string | IUListFormat | IUrl

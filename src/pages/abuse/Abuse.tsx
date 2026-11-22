@@ -2,69 +2,13 @@ import { Route, Routes } from "react-router"
 import overviewDataRaw from "@/content/abuse/overview.json"
 import addictiveSubstancesDataRaw from "@/content/abuse/addictive-substances.json"
 import replacementsDataRaw from "@/content/abuse/replacements.json"
-import type { IAddictiveSubstance, IOverview, IOverviewObject, IReplacement, IReplacementEffects, ISubstanceParagraph } from "@/models/abuse"
+import type { IAddictiveSubstance, IOverview, IReplacement } from "@/models/abuse"
+import ArticleParagraph from "@/components/articleParagraph/ArticleParagraph"
 
 function DisplayPage() {
-    const overviewData = overviewDataRaw as IOverview[]
+    const overviewData = overviewDataRaw as IOverview[][] // consider rewriting the format as a paragraph
     const addictiveSubstancesData = addictiveSubstancesDataRaw as IAddictiveSubstance[]
     const replacementsData = replacementsDataRaw as IReplacement[]
-
-    function CommonParagraph({paragraph}: {paragraph: string}) {
-        return <p>{paragraph}</p>
-    }
-    
-    function ObjectContentOverview({overview} : {overview: IOverviewObject}) {
-        if (overview.type === 'uList') return (
-            <>
-                {overview.uListHeading && <h4>{overview.uListHeading}</h4>}
-                <ul>
-                    {overview.uListContent && overview.uListContent.map((content, index) => (
-                        <li key={index}>{content}</li>
-                    ))}
-                </ul>
-            </>
-        )
-    }
-
-    // ==========
-    // Substances
-    // ==========
-    function ObjectContentSubstances({paragraph}: {paragraph: ISubstanceParagraph}) {
-        if (paragraph.type === 'uList') return (
-            <>
-                {paragraph.uListHeading && <h4>{paragraph.uListHeading}</h4>}
-                <ul>
-                    {paragraph.uListContent && paragraph.uListContent.map((content, index) => (
-                        <li key={index}>{content}</li>
-                    ))}
-                </ul>
-            </>
-        )
-        if (paragraph.type === 'url') return (
-            <a href={paragraph.content} target="_blank">{paragraph.friendlyContent}</a>
-        )
-    }
-    // ==========
-
-    // ============
-    // Replacements
-    // ============
-    function ObjectContentReplacements({content}: {content: IReplacementEffects}) {
-        if (content.type === 'url') return (
-            <a href={content.content} target="_blank">{content.friendlyContent}</a>
-        )
-        if (content.type === 'uList') return (
-            <section>
-                <h4>{content.uListHeading}</h4>
-                <ul>
-                    {content.uListContent.map((liContent, index) => (
-                        <li key={index}>{liContent}</li>
-                    ))}
-                </ul>
-            </section>
-        )
-    }
-    // ============
 
     return (
         <>
@@ -73,10 +17,7 @@ function DisplayPage() {
                 {overviewData.map((overviewsection, index) => (
                     <div key={index}>
                         {overviewsection.map((subOverview, index) => (
-                            <div key={index}>
-                                {typeof subOverview === 'string' && <CommonParagraph paragraph={subOverview}/>}
-                                {typeof subOverview === 'object' && <ObjectContentOverview overview={subOverview}/>}
-                            </div>
+                            <ArticleParagraph key={index} content={subOverview}/>
                         ))}
                     </div>
                 ))}
@@ -94,25 +35,14 @@ function DisplayPage() {
                             </figcaption>
                         </figure>
                         {substance.paragraphs.map((paragraph, index) => (
-                            <div key={index}>
-                                {typeof paragraph === 'string' && <CommonParagraph paragraph={paragraph}/>}
-                                {typeof paragraph === 'object' && <ObjectContentSubstances paragraph={paragraph}/>}
-                            </div>
+                            <ArticleParagraph key={index} content={paragraph}/>
                         ))}
                     </section>
                 ))}
             </div>
             <div>
                 {replacementsData.map((replacement, index) => (
-                    <div key={index}>
-                        <h3>{replacement.name}</h3>
-                        {replacement.effects.map((content, index) => (
-                            <div key={index}>
-                                {typeof content === 'string' && <CommonParagraph paragraph={content}/>}
-                                {typeof content === 'object' && <ObjectContentReplacements content={content}/>}
-                            </div>
-                        ))}
-                    </div>
+                    <ArticleParagraph key={index} content={replacement}/>
                 ))}
             </div>
         </>
