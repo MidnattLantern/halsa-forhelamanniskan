@@ -1,12 +1,12 @@
 [
     {
         "title": "O2 syre",
-        "photoURL": "https://images.unsplash.com/photo-1580211796963-4c26029bb4dc?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "photoUrl": "https://images.unsplash.com/photo-1580211796963-4c26029bb4dc?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
         "photoCredit": {
             "name": "Mauri Karlin",
-            "nameURL": "https://unsplash.com/@rovaniemi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "nameUrl": "https://unsplash.com/@rovaniemi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
             "source": "Unsplash",
-            "sourceURL": "https://unsplash.com/photos/person-walking-on-green-grass-field-during-daytime-r4luKXaPRB8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            "sourceUrl": "https://unsplash.com/photos/person-walking-on-green-grass-field-during-daytime-r4luKXaPRB8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
         },
         "paragraphs": [
             "Öppna fönstret och släpp in den friska luften. Detta bör göras året om: Se till att ren, syrerik luft strömmar genom ditt hem, dag som natt. Ta en daglig promenad i skogen eller vid en sjöstrand. Känn gärna marken mot dina bara fötter 15-30 minuter om möjligt.",
@@ -20,12 +20,12 @@
     },
     {
         "title": "Rörelse",
-        "photoURL": "https://images.unsplash.com/photo-1618946019619-9d7b7d86b48f?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "photoUrl": "https://images.unsplash.com/photo-1618946019619-9d7b7d86b48f?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
         "photoCredit": {
             "name": "Martin Dalsgaard",
-            "nameURL": "https://unsplash.com/@martin_dalsgaard?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "nameUrl": "https://unsplash.com/@martin_dalsgaard?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
             "source": "Unsplash",
-            "sourceURL": "https://unsplash.com/photos/woman-in-black-jacket-walking-with-black-labrador-retriever-on-pathway-during-daytime-sGV1QDMM0Gg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            "sourceUrl": "https://unsplash.com/photos/woman-in-black-jacket-walking-with-black-labrador-retriever-on-pathway-during-daytime-sGV1QDMM0Gg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
         },
         "paragraphs": [
             "Stärk din kropp genom daglig motion i friska luften. De positiva effekterna är utomordentliga.",
@@ -49,12 +49,12 @@
     },
     {
         "title": "Diet",
-        "photoURL": "https://images.unsplash.com/photo-1554980291-c3e7cea75872?q=80&w=796&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "photoUrl": "https://images.unsplash.com/photo-1554980291-c3e7cea75872?q=80&w=796&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
         "photoCredit": {
             "name": "Victoria Shes",
-            "nameURL": "https://unsplash.com/@victoriakosmo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "nameUrl": "https://unsplash.com/@victoriakosmo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
             "source": "Unsplash",
-            "sourceURL": "https://unsplash.com/photos/cooked-food-wSh0Exrb62g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            "sourceUrl": "https://unsplash.com/photos/cooked-food-wSh0Exrb62g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
         },
         "paragraphs": [
             "Varje organ i kroppen behöver sin del av näringsämnen.",
@@ -77,12 +77,12 @@
     },
     {
         "title": "Återhämtning",
-        "photoURL": "https://images.unsplash.com/photo-1531517647563-118f2dbd3ba6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "photoUrl": "https://images.unsplash.com/photo-1531517647563-118f2dbd3ba6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
         "photoCredit": {
             "name": "Kasya Shahovskaya",
-            "nameURL": "https://unsplash.com/@kasya?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "nameUrl": "https://unsplash.com/@kasya?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
             "source": "Unsplash",
-            "sourceURL": "https://unsplash.com/photos/brown-cat-sleeping-on-white-textile-d5ud04fTJCk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            "sourceUrl": "https://unsplash.com/photos/brown-cat-sleeping-on-white-textile-d5ud04fTJCk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
         },
         "paragraphs": [
             "Lägg dig tidigt, före kl.22 - vakna utvilad.",
@@ -97,12 +97,12 @@
     },
     {
         "title": "Solsken",
-        "photoURL": "https://images.unsplash.com/photo-1527212986666-4d2d47a80d5f?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "photoUrl": "https://images.unsplash.com/photo-1527212986666-4d2d47a80d5f?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
         "photoCredit": {
             "name": "Melissa Askew",
-            "nameURL": "https://unsplash.com/@melissaaskew?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "nameUrl": "https://unsplash.com/@melissaaskew?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
             "source": "Unsplash",
-            "sourceURL": "https://unsplash.com/photos/girl-sitting-on-daisy-flowerbed-in-forest-8n00CqwnqO8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            "sourceUrl": "https://unsplash.com/photos/girl-sitting-on-daisy-flowerbed-in-forest-8n00CqwnqO8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
         },
         "paragraphs": [
             "Solen är ett av naturens mest verksamma läkemedel. Solsken påverkar vår kroppsfunktion positivt i flera avseenden.",
@@ -118,12 +118,12 @@
     },
     {
         "title": "Avhållsamhet",
-        "photoURL": "https://images.unsplash.com/photo-1605883705077-8d3d3cebe78c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "photoUrl": "https://images.unsplash.com/photo-1605883705077-8d3d3cebe78c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
         "photoCredit": {
             "name": "Karolina Kołodziejczak",
-            "nameURL": "https://unsplash.com/@rabbit_in_blue",
+            "nameUrl": "https://unsplash.com/@rabbit_in_blue",
             "source": "Unsplash",
-            "sourceURL": "https://unsplash.com/photos/white-ceramic-plate-on-table-YCPAqurU8dg"
+            "sourceUrl": "https://unsplash.com/photos/white-ceramic-plate-on-table-YCPAqurU8dg"
         },
         "paragraphs": [
             "Skydda din kropp från allt som skadar dig, och använd med måtta det som gör dig gott.",
@@ -136,12 +136,12 @@
     },
     {
         "title": "Gudsförtröstan",
-        "photoURL": "https://images.unsplash.com/photo-1681938330712-249c934a76f9?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "photoUrl": "https://images.unsplash.com/photo-1681938330712-249c934a76f9?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
         "photoCredit": {
             "name": "Ioana Ye",
-            "nameURL": "https://unsplash.com/@seleaphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+            "nameUrl": "https://unsplash.com/@seleaphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
             "source": "Unsplash",
-            "sourceURL": "https://unsplash.com/photos/a-woman-sitting-in-the-grass-reading-a-book-E8kqLr9v1Yw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            "sourceUrl": "https://unsplash.com/photos/a-woman-sitting-in-the-grass-reading-a-book-E8kqLr9v1Yw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
         },
         "paragraphs": [
             "Hälsa innefattar hela människan.",
@@ -152,12 +152,12 @@
     },
     {
     "title": "Vatten",
-    "photoURL": "https://images.unsplash.com/photo-1602904761432-f9ad96133982?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    "photoUrl": "https://images.unsplash.com/photo-1602904761432-f9ad96133982?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "photoCredit": {
         "name": "Nicolas Ruiz",
-        "nameURL": "https://unsplash.com/@nicoruiz01981?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+        "nameUrl": "https://unsplash.com/@nicoruiz01981?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
         "source": "Unsplash",
-        "sourceURL": "https://unsplash.com/photos/clear-drinking-glass-with-water-aFbow3dw8QA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        "sourceUrl": "https://unsplash.com/photos/clear-drinking-glass-with-water-aFbow3dw8QA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
     },
     "paragraphs": [
         "Börja dagen med att dricka 1-2 glas ljummet vatten.",

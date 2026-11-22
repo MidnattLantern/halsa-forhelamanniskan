@@ -1,9 +1,9 @@
 import Styles from "./EightHealthKeys.module.scss"
 import { Route, Routes } from "react-router"
 import healthKeyDataRaw from "@/content/health-keys.json"
-import type { IHealthKey } from "@/models"
 import HealthKeyArticle from "./healthKeyArticle/HealthKeyArticle"
 import HealthKeyPreview from "./healthKeyPreview/HealthKeyPreview"
+import type { IHealthKey } from "@/models/health-keys"
 
 function DisplayPage() {
     const healthKeyData = healthKeyDataRaw as IHealthKey[]

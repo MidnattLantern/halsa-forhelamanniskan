@@ -1,7 +1,9 @@
+// Consider remaking this component as a universal article component
+
 import { NavLink, useParams } from "react-router"
 import Styles from "./HealthKeyArticle.module.scss"
-import type { IHealthKey } from "@/models"
 import healthKeyDataRaw from "@/content/health-keys.json"
+import type { IHealthKey } from "@/models/health-keys";
 
 function HealthKeyArticle() {
     const params = useParams()
@@ -14,11 +16,11 @@ function HealthKeyArticle() {
             <article className={Styles.article}>
                 <h3>{healthKey.title}</h3>
                 <figure>
-                    <img src={healthKey.photoURL} alt={`Representativ bild för ${healthKey.title}`} width={300}/>
+                    <img src={healthKey.photoUrl} alt={`Representativ bild för ${healthKey.title}`} width={300}/>
                     <figcaption>
-                        <span>Foto av <a href={healthKey.photoCredit.nameURL} target="_blank">{healthKey.photoCredit.name}</a></span>
+                        <span>Foto av <a href={healthKey.photoCredit.nameUrl} target="_blank">{healthKey.photoCredit.name}</a></span>
                         <br/>
-                        <span>Från <a href={healthKey.photoCredit.sourceURL} target="_blank">{healthKey.photoCredit.source}</a></span>
+                        <span>Från <a href={healthKey.photoCredit.sourceUrl} target="_blank">{healthKey.photoCredit.source}</a></span>
                     </figcaption>
                 </figure>
                 <ul>
