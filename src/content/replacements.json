@@ -1,11 +1,60 @@
 [
     {
-        "title": "Cikoriarot"
+        "title": "Cikoriarot",
+        "content": [
+            "En god och nyttig kaffeersättning",
+            "Rik på vitaminer, mineraler, fibrer och antioxidanter",
+            "Minskar risken för hjärt-kärlsjukdomar, har en blodtryckssänkande effekt",
+            "Kostfibrer stödjer matsmältningen, kan förhindra förstoppning och även tjocktarmscancer",
+            "Håller blodsockret stabilt och stödjer hälsosam viktminskning",
+            "Renar kroppen—rensar levern och blodet",
+            "Hjälper kroppen att motstå gallstenar, njurstenar och leverstenar",
+            "Inulin—en löslig fiber som har antiinflammatoriska egenskaper som är bra för både immun—och nervsystemet; Minskar ångest och depression",
+            "Cikoria—är utmärkt för att bekämpa parasiter och maskar i tarmen",
+            "Antioxidanter hjälper oss att bekämpa oxidativ stress i kroppen"
+        ]
     },
     {
-        "title": "Carob"
+        "title": "Carob",
+        "content": [
+            "Koka och drick som te, kaffe eller använd som bas i en smoothie"
+        ]
     },
     {
-        "title": "Chaga Sprängticka"
+        "title": "Chaga Sprängticka",
+        "content": [
+            {
+                "type": "uList",
+                "uListHeading": "Chaga",
+                "uListContent": [
+                    "Är en av de mest värdefulla råvarorna i naturen",
+                    "Innehåller många vitaminer och mineraler,  betagluken, steroler och fytonäringsämnen",
+                    "Innehåller antioxidanter reducerar fria radikaler i kroppen, och just chaga har mest antioxidanter av alla växter. Den har ett ORAC-värde på 100 000 jämfört med blåbårets ORAC-värde på 9000. (ORAC-värdet anger födans förmåga att neutralisera de skadliga fria radikalerna)",
+                    "Är effektiv mot psoriasis och cancer",
+                    "Stärker immunförsvaret",
+                    "Lindrar infektioner och inflammationer",
+                    "Är effektiv mot virussjukdom",
+                    "Balanserar blodtrycket",
+                    "Sänker blodsockernivån",
+                    "Förbättrar kvaliteten på hår och hud",
+                    "Lindrar matsmältningsproblem"
+                ]
+            },
+            {
+                "type": "url",
+                "content": "https://axelsons.se/chaga-halsa-som-vaxer-pa-trad/",
+                "friendlyContent": "axelsons.se/chaga"
+            },
+            "Kakaoersättning, fritt från koffein",
+            "Bra källa till vitaminer och mineraler",
+            "Minskar risken för hjärt—och kärlsjukdomar",
+            "Balanserar blodtrycket",
+            "Sänker kolesterolbeläggning",
+            "Minskar sötsuget",
+            "Stödjer matsmältningen",
+            "Har en snabbt stoppande effekt vid diarre",
+            "Reglerar blodsockernivån",
+            "Vitamin A och B2 är bra för din hud och ögonhälsa"
+        ]
     }
 ]

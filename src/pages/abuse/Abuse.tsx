@@ -49,9 +49,19 @@ function DisplayPage() {
     // ============
     // Replacements
     // ============
-    function ObjectContentReplacements({effect}: {effect: IReplacementEffects}) {
-        if (effect.type === 'url') return (
-            <a href={effect.content} target="_blank">{effect.friendlyContent}</a>
+    function ObjectContentReplacements({content}: {content: IReplacementEffects}) {
+        if (content.type === 'url') return (
+            <a href={content.content} target="_blank">{content.friendlyContent}</a>
+        )
+        if (content.type === 'uList') return (
+            <section>
+                <h4>{content.uListHeading}</h4>
+                <ul>
+                    {content.uListContent.map((liContent, index) => (
+                        <li key={index}>{liContent}</li>
+                    ))}
+                </ul>
+            </section>
         )
     }
     // ============
@@ -96,10 +106,10 @@ function DisplayPage() {
                 {replacementsData.map((replacement, index) => (
                     <div key={index}>
                         <h3>{replacement.name}</h3>
-                        {replacement.effects.map((effect, index) => (
+                        {replacement.effects.map((content, index) => (
                             <div key={index}>
-                                {typeof effect === 'string' && <CommonParagraph paragraph={effect}/>}
-                                {typeof effect === 'object' && <ObjectContentReplacements effect={effect}/>}
+                                {typeof content === 'string' && <CommonParagraph paragraph={content}/>}
+                                {typeof content === 'object' && <ObjectContentReplacements content={content}/>}
                             </div>
                         ))}
                     </div>

@@ -34,9 +34,10 @@ export type IAddictiveSubstance = {
     paragraphs: string[] | IUList[] | IUrl[]
 }
 
-export type IReplacementEffects = IUrl
+export type IReplacementEffects = IUrl | IUList
 
 export type IReplacement = {
     name: string,
     effects: IReplacementEffects[]
 }
+

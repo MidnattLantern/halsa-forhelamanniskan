@@ -96,6 +96,9 @@ Each page now has its own component function checking whether a string is a comm
 ### uListContent as a standalone generation
 Currently uListContent is strictly an array of strings, when they could be repurposed as stand slone content, enabling nested generations.
 
+# Consider better name format for url
+"content" and "friendlyContent" could be reconsidered to something more intuitive, like "urlString" and "friendlyUrlString".
+
 ## Deployment
 This project use the gh-pages node package, this allow manual deployment, meaning developers can push changes and wait for releases when the code is stable and ready for publicity. The package.json file contian the script "deploy" which compile the code for the branch "gh-pages". The branch "gh-pages" is automatically created when running the script for the first time.
 
