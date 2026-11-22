@@ -1,7 +1,7 @@
 type IUrl = {
     type: 'url',
-    content: string,
-    friendlyContent: string
+    urlString: string,
+    friendlyUrlString: string
 }
 
 export type IObjectContent = IUrl

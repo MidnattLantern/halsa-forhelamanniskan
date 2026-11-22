@@ -14,6 +14,7 @@ function ArticleParagraph({
 
     // Formatted
     if (typeof content === 'object') {
+
         if (content.type === 'uList') return <section>
             <h4>{content.uListHeading}</h4>
             <ul>
@@ -22,7 +23,8 @@ function ArticleParagraph({
                 ))}
             </ul>
         </section>
-        // if (content.type === 'url') return // return format for url including urlString and friendlyUrlString
+        
+        if (content.type === 'url') return <a href={content.urlString} target="_blank">{content.friendlyUrlString}</a>
     }
 }
 
