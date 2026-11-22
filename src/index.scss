@@ -4,9 +4,7 @@
 	padding: 0;
 
 	--c-surface: #fff;
-	--c-surface-accent: #eceae3;
-	--c-cave: #255760;
-
+	--c-primary: #255760;
 
 	--f-serif: "Merriweather", serif;
 	--f-sans: "Montserrat", sans-serif;
@@ -16,7 +14,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	background: var(--c-surface-accent);
+	background: var(--c-surface);
 	width: 100vw;
 	min-height: 100vh;
 }
@@ -31,12 +29,16 @@ main {
 }
 
 // nav {
-// 	background-color: var(--c-cave);
+// 	background-color: var(--c-primary);
+
+// 	a {
+// 		color: var(--c-surface);
+// 	}
 // }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--f-serif);
-	color: var(--c-cave);
+	color: var(--c-primary);
 	text-transform: uppercase;
 }
 
