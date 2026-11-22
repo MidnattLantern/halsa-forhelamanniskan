@@ -3,14 +3,13 @@ import overviewDataRaw from "@/content/herbsForService/overview.json"
 import classificationDataRaw from "@/content/herbsForService/classification.json"
 import herbRecipesDataRaw from "@/content/herbsForService/herb-recipes.json"
 import floraDataRaw from "@/content/herbsForService/flora.json"
-import type { IHerbRecipe, IHerbsFlora } from "@/models"
-import type { IObjectContent, IOverview } from "@/models/herbs-for-service"
+import type { IClassification, IFlora, IObjectContent, IOverview, IRecipe } from "@/models/herbs-for-service"
 
 function DisplayPage() {
     const overviewData = overviewDataRaw as IOverview
-    const classificationData = classificationDataRaw as IHerbsFlora[]
-    const herbRecipesData = herbRecipesDataRaw as IHerbRecipe[]
-    const floraData = floraDataRaw as IHerbsFlora[]
+    const classificationData = classificationDataRaw as IClassification[]
+    const herbRecipesData = herbRecipesDataRaw as IRecipe[]
+    const floraData = floraDataRaw as IFlora[]
 
     function CommonParagraph({content}: {content: string}) {
         return <span>{content}</span>

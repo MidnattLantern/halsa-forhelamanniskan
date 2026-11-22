@@ -1,22 +1,16 @@
 import { Route, Routes } from "react-router"
 import firstAidKitDataRaw from "@/content/first-aid-kit.json"
-import type { IFirstAidKit } from "@/models"
+import ArticleParagraph from "@/components/articleParagraph/ArticleParagraph"
+import type { IFirstAid } from "@/models/first-aid"
 
 function DisplayPage() {
-    const firstAidKitData = firstAidKitDataRaw as IFirstAidKit[]
+    const firstAidKitData = firstAidKitDataRaw as IFirstAid[]
 
     return (
         <>
             <h2>Första hjälpen kit</h2>
-            {firstAidKitData.map((firstAidSection, index) => (
-                <section key={index}>
-                    <h3>{firstAidSection.bulletHeading}</h3>
-                    <ul>
-                        {firstAidSection.content.map((bulletPoint, index) => (
-                            <li key={index}>{bulletPoint}</li>
-                        ))}
-                    </ul>
-                </section>
+            {firstAidKitData.map((section, index) => (
+                <ArticleParagraph key={index} content={section}/>
             ))}
         </>
     )

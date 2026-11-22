@@ -1,7 +1,8 @@
 [
     {
-        "bulletHeading": "Innehåll",
-        "content": [
+        "type": "uList",
+        "uListHeading": "Innehåll",
+        "uListContent": [
             "Cayennepeppar- för cirkulationssvikt (ca 1/2 tsk i munnen),smärtlindring  och för att stoppa blödning",
             "Träkol- för orm och insektsbett ( drick 1 msk blandat i vatten) träkolsförband på bettet,se nedan",
             "Eucalyptus eller lavendelolja i vatten för sårtvätt",
@@ -18,8 +19,9 @@
         ]
     },
     {
-        "bulletHeading": "Färdigt träkolsförband",
-        "content": [
+        "type": "uList",
+        "uListHeading": "Färdigt träkolsförband",
+        "uListContent": [
             "1 msk träkol",
             "1 msk psylliumhusk",
             "4 msk vatten",
