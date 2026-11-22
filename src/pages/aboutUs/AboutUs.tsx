@@ -1,17 +1,19 @@
 import Styles from "./AboutUs.module.scss"
 import { Route, Routes } from "react-router"
 import aboutUsDataRaw from "@/content/about-us.json"
-import type { IAboutUsPoint } from "@/models"
+import type { IAboutUs, IObjectContent } from "@/models/about-us"
 
 function DisplayPage() {
-    const aboutUsData = aboutUsDataRaw as IAboutUsPoint[][]
+    const aboutUsData = aboutUsDataRaw as IAboutUs
 
-    function Paragraph({content}: {content: string}) {
+    function CommonParagraph({content}: {content: string}) {
         return <span>{content}</span>
     }
 
-    function Url({destination, friendlyUrl}: {destination: string, friendlyUrl: string}) {
-        return <a href={destination} target="_blank">{friendlyUrl}</a>
+    function ObjectContent({content} : {content: IObjectContent}) {
+        if (content.type === 'url') return (
+            <a href={content.content} target="_blank">{content.friendlyContent}</a>
+        )
     }
 
     return (
@@ -20,12 +22,8 @@ function DisplayPage() {
             <ul className={Styles.container}>
                 {aboutUsData.map((aboutPoint, index) => (
                     <li key={index}>
-                        {aboutPoint.map((about, index) => (
-                            <p key={index}>
-                                {about.type === "url" && <Url destination={about.content} friendlyUrl={about.friendlyContent!}/>}
-                                {about.type === "paragraph" && <Paragraph content={about.content}/>}
-                            </p>
-                        ))}
+                        {typeof aboutPoint === 'string' && <CommonParagraph content={aboutPoint}/>}
+                        {typeof aboutPoint === 'object' && <ObjectContent content={aboutPoint}/>}
                     </li>
                 ))}
             </ul>

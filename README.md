@@ -5,6 +5,7 @@
 - [About](#about)
 - [Volunteers](#volunteers)
 - [Codebase](#codebase)
+- [Technical debt & better ideas](#technical-debt--better-ideas)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
 
@@ -82,6 +83,15 @@ A common format of storing text content is as an array for a "paragraph" object.
     "text 3"
 ]
 ```
+
+## Technical debt & better ideas
+Compromises and flaws are documented even without intention to handle them. Also including ideas for improvements, their abscence doesn't question the code quality.
+
+### Unorganized models
+The interfaces within the models directory could be cleaner.
+
+## Content iterator as a component
+Each page now has its own component function checking whether a string is a common paragraph or object content. this could be refactored to use one reusable component.
 
 ## Deployment
 This project use the gh-pages node package, this allow manual deployment, meaning developers can push changes and wait for releases when the code is stable and ready for publicity. The package.json file contian the script "deploy" which compile the code for the branch "gh-pages". The branch "gh-pages" is automatically created when running the script for the first time.

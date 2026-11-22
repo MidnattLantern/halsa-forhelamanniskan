@@ -9,18 +9,10 @@ function DisplayPage() {
     const addictiveSubstancesData = addictiveSubstancesDataRaw as IAddictiveSubstance[]
     const replacementsData = replacementsDataRaw as IReplacement[]
 
-    // ======
-    // common
-    // ======
     function CommonParagraph({paragraph}: {paragraph: string}) {
         return <p>{paragraph}</p>
     }
-    // ======
-
-
-    // ========
-    // overview
-    // ========
+    
     function ObjectContentOverview({overview} : {overview: IOverviewObject}) {
         if (overview.type === 'uList') return (
             <>
@@ -33,7 +25,6 @@ function DisplayPage() {
             </>
         )
     }
-    // ========
 
     // ==========
     // Substances
