@@ -1,3 +1,9 @@
+type IDecorated = {
+    type: "decorated",
+    decoration: "strong" | "strikethrough" | "underline" | "italic",
+    text: string
+}
+
 type IUrl = {
     type: "url",
     urlString: string,
@@ -10,4 +16,4 @@ type IUListFormat = {
     uListContent: string[]
 }
 
-export type IArticleParagraph = string | IUListFormat | IUrl
+export type IArticleParagraph = string | IUListFormat | IUrl | IDecorated

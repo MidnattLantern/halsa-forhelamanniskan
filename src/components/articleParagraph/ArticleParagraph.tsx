@@ -25,6 +25,19 @@ function ArticleParagraph({
         </section>
         
         if (content.type === 'url') return <a href={content.urlString} target="_blank">{content.friendlyUrlString}</a>
+
+        if (content.type === 'decorated') {
+            switch(content.decoration) {
+                case 'strong':
+                    return <strong>{content.text}</strong>
+                case 'strikethrough':
+                    return <s>{content.text}</s>
+                case 'underline':
+                    return <u>{content.text}</u>
+                case 'italic':
+                    return <i>{content.text}</i>
+            }
+        }
     }
 }
 

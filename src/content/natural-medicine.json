@@ -1,18 +1,21 @@
 [
     {
         "name": "Älgörtste",
-        "effectsSection": {
-            "heading": "Älgört innehåller salicylsyra, som",
-            "effects": [
-                "Är antiinflammatorisk och smärtstillande. Hjälper mot huvudvärk och ledvärk",
-                "Är febernedsättande",
-                "Stärker andnings och immunförsvaret",
-                "Är svett och urindrivande",
-                "Reglerar blodtrycket",
-                "Hjälper mot matsmältningsproblem",
-                "Hjälper mot halsbränna"
-            ]
-        },
+        "effectsSection": [
+            {
+                "type": "uList",
+                "uListHeading": "Älgört innehåller salicylsyra, som",
+                "uListContent": [
+                    "Är antiinflammatorisk och smärtstillande. Hjälper mot huvudvärk och ledvärk",
+                    "Är febernedsättande",
+                    "Stärker andnings och immunförsvaret",
+                    "Är svett och urindrivande",
+                    "Reglerar blodtrycket",
+                    "Hjälper mot matsmältningsproblem",
+                    "Hjälper mot halsbränna"
+                ]
+            }
+        ],
         "recipeSection": [
             {
                 "item": "torkad smulad älgört",
@@ -106,12 +109,15 @@
     },
     {
         "name": "Cayennepeppar",
-        "effectsSection": {
-            "heading": "Effektik mot",
-            "effects": [
-                "Halsont"
-            ]
-        },
+        "effectsSection": [
+            {
+                "type": "uList",
+                "headuListHeadinging": "Effektik mot",
+                "uListContent": [
+                    "Halsont"
+                ]
+            }
+        ],
         "treatmentInstructionsSection": [
             "Ej het och kryddig. Sniffa lite i vardera näsborre mot nästäppa och bihåleinflammation. ¼ tesked sväljs med vatten"
         ]
@@ -140,9 +146,9 @@
             "Spädbarn: Skivad vitlök istället för gullök, men ej direkt på huden - Linda in i en kompress eller bomullstyg (Alt. En droppe eucalyptusolja på fontanellen)",
             "Varmt fotbad med lök 20-30 minuter",
             {
-                "type": "formattedParagraph",
-                "content": "Om du har neuropati, diabetes eller sår: max 37,8 grader i vattnet",
-                "textFormat": "strong"
+                "type": "decorated",
+                "decoration": "strong",
+                "text": "Om du har neuropati, diabetes eller sår: max 37,8 grader i vattnet"
             }
         ]
     },

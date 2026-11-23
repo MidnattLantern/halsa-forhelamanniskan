@@ -1,3 +1,21 @@
+type IDecorated = {
+    type: "decorated",
+    decoration: "strong" | "strikethrough" | "underline" | "italic",
+    text: string
+}
+
+type IUrlFormat = {
+    type: "url",
+    urlString: string,
+    friendlyUrlString: string
+}
+
+type IUListFormat = {
+    type: "uList",
+    uListHeading?: string,
+    uListContent: string[]
+}
+
 export type IEffectsSection = {
     heading: string,
     effects: string[]
@@ -22,8 +40,8 @@ export type IFormattedParagraph = {
 
 export type INaturalMedicine = {
     name: string,
-    effectsSection?: IEffectsSection,
+    effectsSection?: string[] | IUListFormat[] | IUrlFormat[] | IDecorated[],
     recipeSection?: IRecipeSection[],
     recipeInstructionsSection?: string[],
-    treatmentInstructionsSection?: string[] | IUList[] | IFormattedParagraph[]
+    treatmentInstructionsSection?:  string[] | IUListFormat[] | IUrlFormat[] | IDecorated[]
 }
