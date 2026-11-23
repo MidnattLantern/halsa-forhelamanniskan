@@ -1,3 +1,9 @@
+type IInternalUrl = {
+    type: "internalUrl",
+    urlString: string,
+    friendlyUrlString: string
+}
+
 type IDecorated = {
     type: "decorated",
     decoration: "strong" | "strikethrough" | "underline" | "italic",
@@ -16,4 +22,4 @@ type IUListFormat = {
     uListContent: string[]
 }
 
-export type IArticleParagraph = string | IUListFormat | IUrl | IDecorated
+export type IArticleParagraph = string | IUListFormat | IUrl | IDecorated | IInternalUrl

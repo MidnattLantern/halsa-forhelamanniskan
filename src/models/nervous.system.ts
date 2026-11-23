@@ -1,36 +1,28 @@
-type IInnerHTML = {
-    type: 'innerHTML',
-    content: string
+type IInternalUrl = {
+    type: "internalUrl",
+    urlString: string,
+    friendlyUrlString: string
 }
 
-type IUList = {
-    type: 'uList',
+type IDecorated = {
+    type: "decorated",
+    decoration: "strong" | "strikethrough" | "underline" | "italic",
+    text: string
+}
+
+type IUrl = {
+    type: "url",
+    urlString: string,
+    friendlyUrlString: string
+}
+
+type IUListFormat = {
+    type: "uList",
     uListHeading?: string,
     uListContent: string[]
 }
 
-type IUrl = {
-    type: 'url',
-    content: string,
-    friendlyContent: string
-}
-
-type IInternalUrl = {
-    type: 'internalUrl',
-    content: string,
-    friendlyContent: string
-}
-
-type IFormattedParagraph = {
-    type: 'formattedParagraph',
-    content: string,
-    textFormat: 'strong' | 'strikethrough' | 'underline' | 'italic'
-}
-
-type IContentSection = string[] | IInnerHTML[] | IUList[] | IUrl[] | IInternalUrl[] | IFormattedParagraph[]
-export type IContentSectionObject = IInnerHTML | IUList | IUrl | IInternalUrl | IFormattedParagraph
-
 export type INervousSystem = {
     heading: string,
-    contentSections: IContentSection[]
+    textContent: string[] | IUListFormat[] | IUrl[] | IDecorated[] | IInternalUrl[]
 }
